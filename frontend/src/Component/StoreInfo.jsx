@@ -38,4 +38,4 @@ const StoreInfo = () => {
     );
 };
 
-export StoreInfo
+export default StoreInfo

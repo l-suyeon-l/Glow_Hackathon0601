@@ -10,7 +10,6 @@ const Findpage1 = () => {
           <div className="pop-up">
             <div className="store-list">
               <img className="image" alt="검색선" src="#" />
-
               <div className="div">
                 <div className="overlap-group-wrapper">
                   <div className="overlap-group">
