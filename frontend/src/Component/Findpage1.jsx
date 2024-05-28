@@ -1,5 +1,5 @@
 import React from "react";
-import "../Findpage1.css";
+import "./Findpage1.css";
 
 const Findpage1 = () => {
   return (
@@ -8,6 +8,9 @@ const Findpage1 = () => {
         <div className="overlap">
           <div className="map" />
           <div className="pop-up">
+
+
+
             <div className="store-list">
               <img className="image" alt="검색선" src="#" />
               <div className="div">
@@ -122,6 +125,9 @@ const Findpage1 = () => {
                 <img className="image-2" alt="아래선_가게" src="image-4.svg" />
               </div>
             </div>
+
+
+
 
             <div className="search">
               <img className="image-3" alt="돋보기" src="imtc_search.png" />
