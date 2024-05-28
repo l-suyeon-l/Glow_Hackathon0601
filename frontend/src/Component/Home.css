@@ -4,14 +4,15 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    overflow: hidden;
 }
 
-.screen .overlap-group-wrapper {
+/* .screen .overlap-group-wrapper {
     background-color: #ffffff;
     height: 1080px;
     overflow: hidden;
     width: 1920px;
-}
+} */
 
 .screen .overlap-group {
     height: 1081px;
@@ -21,26 +22,25 @@
     width: 1922px;
 }
 
-/* .screen .sliding {
-    background-image: url(./public/umbrella.jpg);
-    background-size: 100% 100%; 
+.screen .sliding {
+    /* background-image: url(./public/umbrella.jpg);
+    background-size: 100% 100%;  */
     height: 980px;
     left: 1px;
     position: absolute;
-    top: 101px;
+    top: 0px;
     width: 1920px;
-} */
-
-.screen .image {
-    height: 1px;
-    left: 41px;
-    object-fit: cover;
-    position: absolute;
-    top: 29px;
-    width: 383px;
 }
 
-.screen .text-wrapper {
+.screen .image {
+    object-fit: cover;
+    position: absolute;
+    top: 101px;
+    width: 1920px;
+    height: 980px;
+}
+
+.screen .text-1 {
     color: #000000;
     font-family: "Inter-Black", Helvetica;
     font-size: 45px;
@@ -54,7 +54,7 @@
     white-space: nowrap;
 }
 
-.screen .div {
+.screen .text-2 {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
     font-size: 45px;
@@ -84,7 +84,7 @@
     width: 163px;
 }
 
-.screen .text-wrapper-2 {
+.screen .Shortcuts {
     color: #000000;
     font-family: "Inter-Thin", Helvetica;
     font-size: 25px;
@@ -108,7 +108,7 @@
     width: 1922px;
 }
 
-.screen .view {
+.screen .view-right {
     height: 22px;
     left: 1584px;
     position: absolute;
@@ -116,7 +116,7 @@
     width: 244px;
 }
 
-.screen .div-wrapper {
+.screen .SignUp {
     height: 22px;
     left: 177px;
     position: absolute;
@@ -124,7 +124,7 @@
     width: 67px;
 }
 
-.screen .text-wrapper-3 {
+.screen .text-sign {
     color: #373737;
     font-family: "Inter-Thin", Helvetica;
     font-size: 18px;
@@ -136,7 +136,7 @@
     top: -1px;
 }
 
-.screen .view-2 {
+.screen .Login {
     height: 22px;
     left: 90px;
     position: absolute;
@@ -144,7 +144,7 @@
     width: 50px;
 }
 
-.screen .view-3 {
+.screen .view-middle {
     height: 30px;
     left: 531px;
     position: absolute;
@@ -160,7 +160,7 @@
     width: 93px;
 }
 
-.screen .text-wrapper-4 {
+.screen .text-notice {
     color: #000000;
     font-family: "Inter-Medium", Helvetica;
     font-size: 25px;
@@ -181,7 +181,7 @@
     width: 152px;
 }
 
-.screen .text-wrapper-5 {
+.screen .text-storeinfo {
     color: #000000;
     font-family: "Inter-Medium", Helvetica;
     font-size: 25px;
@@ -202,7 +202,7 @@
     width: 152px;
 }
 
-.screen .text-wrapper-6 {
+.screen .text-umbrella {
     color: #000000;
     font-family: "Inter-Medium", Helvetica;
     font-size: 25px;
@@ -223,7 +223,7 @@
     width: 99px;
 }
 
-.screen .view-4 {
+.screen .view-left {
     height: 61px;
     left: 75px;
     position: absolute;
@@ -231,7 +231,7 @@
     width: 113px;
 }
 
-.screen .text-wrapper-7 {
+.screen .Logo {
     color: #0075ff;
     font-family: "Inter-Black", Helvetica;
     font-size: 50px;
