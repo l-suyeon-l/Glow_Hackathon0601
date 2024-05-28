@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Findpage1 from './Component/Findpage1';
 import Home from './Component/Home';
+import Findpage1 from './Component/Findpage1';
+import Home from './Component/Home';
 import FindPage1 from './Component/FindPage1';
 // import Home from './Component/Home';
 // import Home from './Component/Home.jsx';

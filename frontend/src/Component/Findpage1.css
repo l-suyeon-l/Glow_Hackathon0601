@@ -4,21 +4,22 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    overflow: hidden;
   }
-  
-  .element .overlap-wrapper {
+
+  /* .element .overlap-group-wrapper {
     background-color: #ffffff;
     height: 1080px;
-    overflow: hidden;
-    width: 1920px;
-  }
+    overflow: hidden;   // .element로 이동
+    width: 1920;
+  } */
   
   .element .overlap {
-    height: 1081px;
-    left: -1px;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
     position: relative;
-    top: -1px;
-    width: 1922px;
   }
   
   .element .map {
@@ -58,7 +59,7 @@
     width: 383px;
   }
   
-  .element .div {
+  .element .store1 {
     height: 204px;
     left: 41px;
     overflow: hidden;
@@ -67,7 +68,7 @@
     width: 383px;
   }
   
-  .element .overlap-group-wrapper {
+  .element .umbrellaCntFrame {
     height: 24px;
     left: 152px;
     position: absolute;
@@ -75,20 +76,20 @@
     width: 231px;
   }
   
-  .element .overlap-group {
+  .element .umbrellaCntStroke {
     border: 1px solid;
     border-color: #ff5858;
     border-radius: 20px;
     height: 24px;
+    width: 150px;
     position: relative;
-    width: 145px;
   }
   
-  .element .div-wrapper {
+  .element .umbrellaCntBack {
     background-color: #ff5858;
     border-radius: 20px;
     height: 24px;
-    left: 105px;
+    left: 110px;
     position: absolute;
     top: 0;
     width: 40px;
@@ -99,17 +100,18 @@
     font-family: "Inter-SemiBold", Helvetica;
     font-size: 15px;
     font-weight: 600;
-    left: 8px;
+    left: 9px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 3px;
+    top: 2px;
     white-space: nowrap;
     width: 24px;
   }
   
-  .element .text-wrapper-2 {
-    color: #ff5858;
+  .element .text-currentUmbrella {
+    /* color: #ff5858; */
+    color: black;
     font-family: "Inter-SemiBold", Helvetica;
     font-size: 15px;
     font-weight: 600;
@@ -117,11 +119,11 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 1px;
+    top: 2px;
     white-space: nowrap;
   }
   
-  .element .div-wrapper-2 {
+  .element .phoneNumber {
     height: 17px;
     left: 158px;
     position: absolute;
@@ -129,7 +131,7 @@
     width: 225px;
   }
   
-  .element .text-wrapper-3 {
+  .element .text-phoneNumber {
     color: #373737;
     font-family: "Inter-Regular", Helvetica;
     font-size: 14px;
@@ -142,7 +144,7 @@
     width: 225px;
   }
   
-  .element .div-wrapper-3 {
+  .element .regionNumber {
     height: 17px;
     left: 234px;
     position: absolute;
@@ -150,7 +152,7 @@
     width: 149px;
   }
   
-  .element .text-wrapper-4 {
+  .element .text-regionNumber {
     color: #373737;
     font-family: "Inter-Regular", Helvetica;
     font-size: 14px;
@@ -163,7 +165,7 @@
     width: 149px;
   }
   
-  .element .div-wrapper-4 {
+  .element .postalCode {
     height: 17px;
     left: 158px;
     position: absolute;
@@ -171,7 +173,7 @@
     width: 65px;
   }
   
-  .element .text-wrapper-5 {
+  .element .text-postalCode {
     color: #373737;
     font-family: "Inter-Regular", Helvetica;
     font-size: 14px;
@@ -183,7 +185,7 @@
     top: -1px;
   }
   
-  .element .div-wrapper-5 {
+  .element .address {
     height: 17px;
     left: 158px;
     position: absolute;
@@ -191,7 +193,7 @@
     width: 225px;
   }
   
-  .element .div-wrapper-6 {
+  .element .storeName {
     height: 27px;
     left: 158px;
     position: absolute;
@@ -199,7 +201,7 @@
     width: 225px;
   }
   
-  .element .text-wrapper-6 {
+  .element .text-storeName {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 22px;
@@ -220,8 +222,8 @@
     width: 383px;
   }
   
-  .element .img-2 {
-    height: 58px;
+  .element .storeProfile {
+    height: 135px;
     left: 0;
     object-fit: cover;
     position: absolute;
@@ -229,7 +231,7 @@
     width: 135px;
   }
   
-  .element .div-2 {
+  .element .store2 {
     height: 204px;
     left: 41px;
     overflow: hidden;
@@ -246,16 +248,7 @@
     width: 383px;
   }
   
-  .element .img-3 {
-    height: 135px;
-    left: 0;
-    object-fit: cover;
-    position: absolute;
-    top: 27px;
-    width: 135px;
-  }
-  
-  .element .div-3 {
+  .element .store3 {
     height: 204px;
     left: 41px;
     overflow: hidden;
@@ -264,7 +257,7 @@
     width: 383px;
   }
   
-  .element .div-4 {
+  .element .store4 {
     height: 204px;
     left: 41px;
     overflow: hidden;
@@ -300,7 +293,7 @@
     width: 383px;
   }
   
-  .element .text-wrapper-7 {
+  .element .text-search {
     color: #919191;
     font-family: "Inter-Thin", Helvetica;
     font-size: 18px;
