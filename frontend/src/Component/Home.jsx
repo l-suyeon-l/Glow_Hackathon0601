@@ -1,15 +1,23 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
+    const navigate = useNavigate();
+
+    const handleButtonClick = () => {
+        navigate("./findpage1");
+    };
+
   return (
     <div className="screen">
       <div className="overlap-group-wrapper">
         <div className="overlap-group">
           <div className="sliding">
+            <img className="image" alt="배경" src="./public/umbrella.jpg" />
             <p className="text-wrapper">비 오는 날, 우산이 없다면?</p>
             <p className="div">지금 바로 가까운 우산을 확인해보세요!</p>
-            <button className="button">
+            <button className="button" onClick={handleButtonClick}>
               <div className="text-wrapper-2">바로가기</div>
             </button>
           </div>
