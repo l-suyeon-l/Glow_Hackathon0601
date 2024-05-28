@@ -6,37 +6,37 @@ const StoreInfo = () => {
         <div className="screen">
             <div className="div">
                 <div className="background">
-                    <div className="view">
-                        <div className="div">
+                    <div className="middle">
+                        <div className="input-1">
                             <div className="div-wrapper">
-                                <div className="text-wrapper">사업자 번호를 입력해주세요</div>
+                                <div className="input">사업자 번호를 입력해주세요</div>
                             </div>
-                            <div className="text-wrapper-2">사업자 번호</div>
-                            <div className="view-2">
-                                <div className="text-wrapper-3">확인</div>
+                            <div className="text">사업자 번호</div>
+                            <div className="check">
+                                <div className="text-check">확인</div>
                             </div>
                         </div>
-                        <div className="view-3">
+                        <div className="input-2">
                             <div className="div-wrapper">
-                                <div className="text-wrapper">상호명을 입력해주세요</div>
+                                <div className="input">상호명을 입력해주세요</div>
                             </div>
-                            <div className="text-wrapper-2">상호명</div>
-                            <div className="view-2">
-                                <div className="text-wrapper-3">확인</div>
+                            <div className="text">상호명</div>
+                            <div className="check">
+                                <div className="text-check">확인</div>
                             </div>
                         </div>
-                        <div className="view-4">
+                        <div className="input-3">
                             <div className="div-wrapper">
-                                <div className="text-wrapper">가게 주소를 입력해주세요</div>
+                                <div className="input">가게 주소를 입력해주세요</div>
                             </div>
-                            <div className="text-wrapper-2">가게 주소</div>
-                            <div className="view-2">
-                                <div className="text-wrapper-3">확인</div>
+                            <div className="text">가게 주소</div>
+                            <div className="check">
+                                <div className="text-check">확인</div>
                             </div>
                         </div>
                     </div>
-                    <div className="view-5">
-                        <div className="text-wrapper-4">가게 정보 등록</div>
+                    <div className="view-upper">
+                        <div className="text-upper">가게 정보 등록</div>
                     </div>
                 </div>
                 <div className="navigator">
