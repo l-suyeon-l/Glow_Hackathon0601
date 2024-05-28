@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Findpage1 from './Component/Findpage1'
 
