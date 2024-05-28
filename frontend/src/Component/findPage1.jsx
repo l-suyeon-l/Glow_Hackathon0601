@@ -1,7 +1,7 @@
 import React from "react";
-import "./style.css";
+import "./Findpage1.css";
 
-export const Element = () => {
+const Findpage1 = () => {
   return (
     <div className="element">
       <div className="overlap-wrapper">
@@ -9,7 +9,8 @@ export const Element = () => {
           <div className="map" />
           <div className="pop-up">
             <div className="store-list">
-              <img className="image" alt="Image" src="image.svg" />
+              <img className="image" alt="검색선" src="#" />
+
               <div className="div">
                 <div className="overlap-group-wrapper">
                   <div className="overlap-group">
@@ -34,9 +35,10 @@ export const Element = () => {
                 <div className="div-wrapper-6">
                   <div className="text-wrapper-6">비블리오테카</div>
                 </div>
-                <img className="img" alt="Image" src="image-6.svg" />
+                <img className="img" alt="Image" src="profile3.jpg" />
                 <img className="img-2" alt="Element" src="1-3.png" />
               </div>
+
               <div className="div-2">
                 <div className="overlap-group-wrapper">
                   <div className="overlap-group">
@@ -61,11 +63,12 @@ export const Element = () => {
                 <div className="div-wrapper-6">
                   <div className="text-wrapper-6">어썸브루커피</div>
                 </div>
-                <img className="image-2" alt="Image" src="image-5.svg" />
+                <img className="image-2" alt="Image" src="./Image/profile2.jpg" />
                 <img className="img-3" alt="Element" src="1-2.png" />
               </div>
+
               <div className="div-3">
-                <img className="img-3" alt="Element" src="1.png" />
+                <img className="img-3" alt="낭만놀이" src="profile2.jpg" />
                 <div className="overlap-group-wrapper">
                   <div className="overlap-group">
                     <div className="div-wrapper">
@@ -92,7 +95,7 @@ export const Element = () => {
                 <img className="image-2" alt="Image" src="image-3.svg" />
               </div>
               <div className="div-4">
-                <img className="img-3" alt="Image" src="image-2.png" />
+                <img className="img-3" alt="벨로" src="profile1.jpg" />
                 <div className="overlap-group-wrapper">
                   <div className="overlap-group">
                     <div className="div-wrapper">
@@ -120,11 +123,13 @@ export const Element = () => {
               </div>
             </div>
             <div className="search">
-              <img className="image-3" alt="Image" src="image.png" />
-              <img className="image-4" alt="Image" src="image-2.svg" />
+              <img className="image-3" alt="돋보기" src="search.png" />
+              <img className="image-4" alt="윗선" src="search.png" />
               <div className="text-wrapper-7">상호명 및 주소를 검색해주세요</div>
             </div>
           </div>
+
+          
           <div className="navigator">
             <div className="view">
               <div className="view-2">
@@ -157,3 +162,5 @@ export const Element = () => {
     </div>
   );
 };
+
+export default Findpage1;
