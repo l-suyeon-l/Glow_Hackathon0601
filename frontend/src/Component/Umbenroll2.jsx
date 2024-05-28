@@ -1,13 +1,19 @@
 import React from "react"; 
+import { useNavigate } from "react-router-dom";
 import "./Umbenroll2.css";  
 
 const Umbenroll2 = () => {   
+    const navigate = useNavigate();
+
+    const handleNavigation = (path) => {
+        navigate(path);
+    };
     return (     
         <div className="div-wrapper">       
             <div className="div">         
                 <div className="background">           
                     <div className="view">             
-                        <div className="button">               
+                        <div className="button" onClick={() => handleNavigation("/storeinfo")}>               
                             <div className="text-wrapper">가게 정보 등록하러 가기</div>               
                             <div className="view-2">                 
                                 <div className="text-wrapper-2">→</div>               

@@ -25,7 +25,6 @@
 
 .screen .view {
     background-color: #ffffff;
-    border: 1px solid;
     height: 939px;
     left: 727px;
     position: relative;
@@ -33,7 +32,7 @@
     width: 466px;
 }
 
-.screen .text-wrapper {
+.screen .text-login {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     font-size: 55px;
@@ -55,7 +54,7 @@
     width: 75px;
 }
 
-.screen .text-wrapper-2 {
+.screen .text-signup {
     color: #373737;
     font-family: "Inter-Thin", Helvetica;
     font-size: 20px;
@@ -71,10 +70,10 @@
     width: 75px;
 }
 
-.screen .view-2 {
-    background-image: url(./kakao-login-large-wide-1.png);
-    background-position: 50% 50%;
-    background-size: cover;
+.screen .kakao-login {
+    /* background-image: url(./kakao-login.png); */
+    /* background-position: 50% 50%;
+    background-size: cover; */
     height: 54px;
     left: 33px;
     position: absolute;
@@ -82,10 +81,10 @@
     width: 400px;
 }
 
-.screen .view-3 {
-    background-image: url(./web-neutral-sq-ctn.png);
-    background-position: 50% 50%;
-    background-size: cover;
+.screen .naver-login {
+    /* background-image: url(./naver_login.png); */
+    /* background-position: 50% 50%;
+    background-size: cover; */
     height: 56px;
     left: 33px;
     position: absolute;
@@ -93,10 +92,10 @@
     width: 400px;
 }
 
-.screen .view-4 {
-    background-image: url(./btng-official-1.png);
-    background-position: 50% 50%;
-    background-size: cover;
+.screen .google-login {
+    /* background-image: url(./google_login.png); */
+    /* background-position: 50% 50%;
+    background-size: cover; */
     height: 57px;
     left: 33px;
     position: absolute;
@@ -115,7 +114,7 @@
     width: 1922px;
 }
 
-.screen .view-5 {
+.screen .view-right {
     height: 22px;
     left: 1583px;
     position: absolute;
@@ -131,7 +130,7 @@
     width: 67px;
 }
 
-.screen .text-wrapper-3 {
+.screen .text-sign {
     color: #373737;
     font-family: "Inter-Thin", Helvetica;
     font-size: 18px;
@@ -151,7 +150,7 @@
     width: 50px;
 }
 
-.screen .view-8 {
+.screen .view-middle {
     height: 30px;
     left: 530px;
     position: absolute;
@@ -167,7 +166,7 @@
     width: 93px;
 }
 
-.screen .text-wrapper-4 {
+.screen .text-notice {
     color: #000000;
     font-family: "Inter-Medium", Helvetica;
     font-size: 25px;
@@ -188,7 +187,7 @@
     width: 152px;
 }
 
-.screen .text-wrapper-5 {
+.screen .text-storeinfo {
     color: #000000;
     font-family: "Inter-Medium", Helvetica;
     font-size: 25px;
@@ -209,7 +208,7 @@
     width: 152px;
 }
 
-.screen .text-wrapper-6 {
+.screen .text-umbrella {
     color: #000000;
     font-family: "Inter-Medium", Helvetica;
     font-size: 25px;
@@ -230,7 +229,7 @@
     width: 99px;
 }
 
-.screen .view-9 {
+.screen .view-left {
     height: 61px;
     left: 74px;
     position: absolute;
@@ -238,7 +237,7 @@
     width: 113px;
 }
 
-.screen .text-wrapper-7 {
+.screen .Logo {
     color: #0075ff;
     font-family: "Inter-Black", Helvetica;
     font-size: 50px;
