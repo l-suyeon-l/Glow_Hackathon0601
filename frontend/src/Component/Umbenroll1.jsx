@@ -1,7 +1,7 @@
 import React from "react"; 
-import "./style.css";  
+import "./Umbenroll1.css";  
 
-export const Screen = () => {   
+const Umbenroll1 = () => {   
     return (     
         <div className="screen">       
             <div className="div">         
@@ -68,3 +68,5 @@ export const Screen = () => {
         </div>   
     ); 
 };
+
+export default Umbenroll1;
