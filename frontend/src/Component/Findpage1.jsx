@@ -1,13 +1,64 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Findpage1.css";
 
 const Findpage1 = () => {
+  const [location, setLocation] = useState({ lat: 37.5665, lng: 126.9780 }); // 기본 좌표 (서울)
+  const [address, setAddress] = useState("");
+
+  useEffect(() => {
+    // 사용자 위치 정보 얻기
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          setLocation({
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+          });
+          // Kakao Maps API 사용하여 주소 정보 가져오기
+          const geocoder = new kakao.maps.services.Geocoder();
+          const coord = new kakao.maps.LatLng(position.coords.latitude, position.coords.longitude);
+          geocoder.coord2Address(coord.getLng(), coord.getLat(), (result, status) => {
+            if (status === kakao.maps.services.Status.OK) {
+              setAddress(result[0].address.address_name);
+            }
+          });
+        },
+        (error) => {
+          console.error("Error fetching geolocation: ", error);
+        },
+        {
+          enableHighAccuracy: true,
+          timeout: 5000,
+          maximumAge: 0,
+        }
+      );
+    }
+    // 카카오 맵 API를 사용하여 지도를 생성합니다.
+    const { kakao } = window;
+    const mapContainer = document.getElementById("map"); // 지도를 표시할 div
+    const mapOption = {
+      center: new kakao.maps.LatLng(location.lat, location.lng), // 사용자 위치를 중심으로 지도 설정
+      level: 3, // 지도의 확대 레벨
+    };
+
+    // 지도 생성
+    const map = new kakao.maps.Map(mapContainer, mapOption);
+
+    // 사용자 위치에 마커 추가
+    const markerPosition = new kakao.maps.LatLng(location.lat, location.lng);
+    const marker = new kakao.maps.Marker({
+      position: markerPosition,
+    });
+    marker.setMap(map);
+  }, [location]); // 위치가 업데이트될 때마다 지도를 다시 생성
+
+
   return (
     <div className="element">
       <div className="overlap">
 
         {/* 지도 */}
-        <div className="map" />
+        <div id="map" className="map" />
 
         {/* 팝업창 */}
         <div className="pop-up">
