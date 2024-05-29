@@ -23,11 +23,11 @@
   }
   
   .Findpage1 .map {
-    background-color: #f2f1ec;
+    /* background-color: #f2f1ec; */
     height: 980px;
     left: 1px;
     position: absolute;
-    top: 101px;
+    top: 102px;
     width: 1920px;
   }
   
@@ -37,8 +37,10 @@
     position: absolute;
     top: 153px;
     width: 466px;
+    z-index: 6;
   }
-  
+
+
   .Findpage1 .store-list {
     background-color: #ffffff;
     border-radius: 20px;
