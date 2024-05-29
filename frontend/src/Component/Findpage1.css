@@ -422,6 +422,26 @@
     white-space: nowrap;
   }
   
+  .Findpage1 .Logo {
+    height: 61px;
+    left: 74px;
+    position: absolute;
+    top: 19px;
+    width: 113px;
+  }
+  
+  .Findpage1 .text-logo {
+    color: #0075ff;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 50px;
+    font-weight: 900;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+  }
+  
   /* .Findpage1 .text-wrapper-9 {
     color: #000000;
     font-family: "Inter-Medium", Helvetica;
@@ -446,24 +466,4 @@
     position: absolute;
     top: -1px;
     width: 152px;
-  } */
-  
-  .Findpage1 .Logo {
-    height: 61px;
-    left: 74px;
-    position: absolute;
-    top: 19px;
-    width: 113px;
-  }
-  
-  .Findpage1 .text-logo {
-    color: #0075ff;
-    font-family: "Inter-Black", Helvetica;
-    font-size: 50px;
-    font-weight: 900;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: -1px;
-  }
+  }  */
