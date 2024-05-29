@@ -6,39 +6,45 @@ const StoreInfo = () => {
         <div className="screen">
             <div className="div">
                 <div className="background">
-                    <div className="middle">
-                        <div className="input-1">
-                            <div className="div-wrapper">
-                                <div className="input">사업자 번호를 입력해주세요</div>
-                            </div>
-                            <div className="text">사업자 번호</div>
-                            <div className="check">
-                                <div className="text-check">확인</div>
-                            </div>
-                        </div>
-                        <div className="input-2">
-                            <div className="div-wrapper">
-                                <div className="input">상호명을 입력해주세요</div>
-                            </div>
-                            <div className="text">상호명</div>
-                            <div className="check">
-                                <div className="text-check">확인</div>
-                            </div>
-                        </div>
-                        <div className="input-3">
-                            <div className="div-wrapper">
-                                <div className="input">가게 주소를 입력해주세요</div>
-                            </div>
-                            <div className="text">가게 주소</div>
-                            <div className="check">
-                                <div className="text-check">확인</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="view-upper">
+
+                    <div className="upper">
                         <div className="text-upper">가게 정보 등록</div>
                     </div>
+
+                    <div className="middle">
+                        <div className="storeAddress">
+                            <div className="textA">가게 주소</div>
+                            <div className="input">
+                                <div className="text-input">가게 주소를 입력해주세요</div>
+                            </div>
+                            <div className="OK">
+                                <div className="text-OK">확인</div>
+                            </div>
+                        </div>
+                        <div className="storeName">
+                            <div className="textA">상호명</div>
+                            <div className="input">
+                                <div className="text-input">상호명을 입력해주세요</div>
+                            </div>
+                            <div className="OK">
+                                <div className="text-OK">확인</div>
+                            </div>
+                        </div>
+                        <div className="businessNumber">
+                            <div className="textA">사업자 번호</div>
+                            <div className="input">
+                                <div className="text-input">사업자 번호를 입력해주세요</div>
+                            </div>
+                            <div className="OK">
+                                <div className="text-OK">확인</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
+
+                {/* 네비게이터는 미수정 */}
                 <div className="navigator">
                     <div className="view-right">
                         <div className="MyPage">
@@ -56,10 +62,10 @@ const StoreInfo = () => {
                             <div className="text-storeinfo">가게 정보 등록</div>
                         </div>
                         <div className="element-3">
-                            <div className="text-unbrella">우산 재고 등록</div>
+                            <div className="text-umbrella">우산 재고 등록</div>
                         </div>
                         <div className="element-4">
-                            <div className="text-unbrella">우산 찾기</div>
+                            <div className="text-umbrella">우산 찾기</div>
                         </div>
                     </div>
                     <div className="view-left">

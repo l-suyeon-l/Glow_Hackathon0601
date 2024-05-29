@@ -29,7 +29,23 @@
     width: 1920px;
 }
 
-.screen .input-1 {
+.screen .storeAddress {
+    height: 190px;
+    left: 612px;
+    position: absolute;
+    top: 24px;
+    width: 696px;
+}
+
+.screen .storeName {
+    height: 190px;
+    left: 612px;
+    position: absolute;
+    top: 214px;
+    width: 696px;
+}
+
+.screen .businessNumber {
     height: 190px;
     left: 612px;
     position: absolute;
@@ -37,38 +53,7 @@
     width: 696px;
 }
 
-.screen .div-wrapper {
-    align-items: flex-start;
-    background-color: #ffffff;
-    border: 2px solid;
-    border-color: #000000;
-    border-radius: 15px;
-    display: flex;
-    gap: 10px;
-    height: 50px;
-    left: 32px;
-    opacity: 0.3;
-    overflow: hidden;
-    padding: 10px;
-    position: absolute;
-    top: 115;
-    width: 520;
-}
-
-.screen .input {
-    color: #000000;
-    font-family: "Inter-Thin", Helvetica;
-    font-size: 20px;
-    font-weight: 100;
-    height: 29px;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -2px;
-    position: relative;
-    width: 257px;
-}
-
-.screen .text {
+.screen .textA {
     color: #000000;
     font-family: "Inter-SemiBold", Helvetica;
     font-size: 35px;
@@ -82,7 +67,38 @@
     width: 170px;
 }
 
-.screen .check {
+.screen .input {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    left: 32px;
+    opacity: 0.3;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    top: 115px;
+    width: 520px;
+}
+
+.screen .text-input {
+    color: #000000;
+    font-family: "Inter-Thin", Helvetica;
+    font-size: 20px;
+    font-weight: 100;
+    height: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -2px;
+    position: relative;
+    width: 257px;
+}
+
+.screen .OK {
     background-color: #0075ff;
     border: 0px none;
     border-radius: 15px;
@@ -94,8 +110,8 @@
     width: 100px;
 }
 
-.screen .text-check {
-    background-color: #ffffff;
+.screen .text-OK {
+    color: #ffffff;
     font-family: "Inter-Thin", Helvetica;
     font-size: 24px;
     font-weight: 100;
@@ -109,23 +125,7 @@
     width: 98px;
 }
 
-.screen .input-2 {
-    height: 190px;
-    left: 612;
-    position: absolute;
-    top: 214px;
-    width: 696px;
-}
-
-.screen .input-3 {
-    height: 190px;
-    left: 612px;
-    position: absolute;
-    top: 24px;
-    width: 696px;
-}
-
-.screen .background .view-upper {
+.screen .background .upper {
     background-color: #0075ff;
     height: 181px;
     left: 0;

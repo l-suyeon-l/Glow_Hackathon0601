@@ -22,7 +22,7 @@
     width: 1920px; 
 }
 
-.div-wrapper .view {   
+.div-wrapper .middleSide {   
     height: 488px;   
     left: 387px;   
     position: absolute;   
@@ -42,7 +42,7 @@
     width: 444px; 
 }
 
-.div-wrapper .text-wrapper {   
+.div-wrapper .text-gotoStoreInfo {   
     color: #000000;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 30px;   
@@ -57,7 +57,7 @@
     width: 313px; 
 }
 
-.div-wrapper .view-2 {   
+.div-wrapper .go {   
     background-color: #0075ff;   
     border-radius: 50px;   
     height: 66px;   
@@ -68,7 +68,7 @@
     width: 98px; 
 }
 
-.div-wrapper .text-wrapper-2 {   
+.div-wrapper .text-go {   
     color: #ffffff;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 50px;   
@@ -84,7 +84,7 @@
     width: 38px; 
 }
 
-.div-wrapper .p {   
+.div-wrapper .text-warningMessage {   
     color: #000000;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 40px;   
@@ -99,7 +99,7 @@
     width: 984px; 
 }
 
-.div-wrapper .text-wrapper-3 {   
+.div-wrapper .text-warning {   
     color: #000000;   
     font-family: "Inter-Black", Helvetica;   
     font-size: 70px;   
@@ -112,7 +112,7 @@
     top: 78px; 
 }
 
-.div-wrapper .view-3 {   
+.div-wrapper .upperSide {   
     background-color: #0075ff;   
     height: 181px;   
     left: 0;   
@@ -121,7 +121,7 @@
     width: 1920px; 
 }
 
-.div-wrapper .text-wrapper-4 {   
+.div-wrapper .text-page {   
     color: #ffffff;   
     font-family: "Inter-Black", Helvetica;   
     font-size: 50px;   

@@ -2,41 +2,48 @@ import React from "react";
 import "./Umbenroll1.css";  
 
 const Umbenroll1 = () => {   
-    return (     
+  return (     
         <div className="screen">       
             <div className="div">         
-                <div className="background">           
-                    <div className="view">             
-                        <div className="view-2">               
-                            <div className="div-wrapper">                 
-                                <p className="text-wrapper">현재 가게에서 보유하고 있는 우산 개수를 입력해주세요</p>               
-                            </div>               
-                            <div className="text-wrapper-2">우산 재고</div>               
-                            <div className="view-3">                 
-                                <div className="text-wrapper-3">확인</div>               
+                <div className="background"> 
+
+                    <div className="upper">             
+                        <div className="text-upper">우산 재고 등록</div>           
+                    </div>  
+
+                    <div className="middle">  
+
+                        <div className="umbrellaStock">                
+                            <div className="inputCurrentUmbrella">                 
+                                <p className="text-CurrentUmbrella">현재 가게에서 보유하고 있는 우산 개수를 입력해주세요</p>               
+                            </div>                           
+                            <div className="text-umbrellaStock">우산 재고</div>  
+                            <div className="OK">                 
+                                <div className="text-OK">확인</div>               
                             </div>             
-                        </div>             
-                        <div className="overlap-group">               
-                            <div className="view-4">                 
-                                <div className="div-2">                   
-                                    <div className="text-wrapper-4">주소 :</div>                   
-                                    <p className="p">대구 북구 대학로23길 114 1층</p>                 
-                                </div>                 
-                                <div className="div-3">                   
-                                    <div className="text-wrapper-4">상호명 :</div>                   
-                                    <div className="text-wrapper-5">벨로</div>                 
-                                </div>              
-                            </div>               
-                            <div className="div-4">                 
-                                <div className="text-wrapper-6">님의 가게 정보</div>                 
-                                <div className="text-wrapper-7">김원빈</div>               
-                            </div>             
+                        </div>      
+                               
+                        <div className="storeInfo">         
+                            <div className="storeInfoTitle">                 
+                                <div className="text-storeInfo">님의 가게 정보</div>                 
+                                <div className="text-user">김원빈</div>               
+                            </div>                 
+                            <div className="storeInfoContent">     
+                                <div className="storeName">                   
+                                    <div className="text-storeName">상호명:</div>                   
+                                    <div className="text-content">벨로</div>                 
+                                </div>                           
+                                <div className="storeAddress">                   
+                                    <div className="text-storeAddress">주소:</div>                   
+                                    <div className="text-content">대구 북구 대학로23길 114 1층</div>                 
+                                </div>                
+                            </div>                 
                         </div>           
-                    </div>           
-                    <div className="view-5">             
-                        <div className="text-wrapper-8">우산 재고 등록</div>           
-                    </div>         
+                    </div>    
                 </div>         
+
+
+                {/* 네비게이터는 미수정 */}
                 <div className="navigator-login">           
                     <div className="view-6">             
                         <div className="view-7">               
@@ -64,6 +71,7 @@ const Umbenroll1 = () => {
                         <div className="text-wrapper-13">BP해</div>           
                     </div>         
                 </div>       
+
             </div>     
         </div>   
     ); 

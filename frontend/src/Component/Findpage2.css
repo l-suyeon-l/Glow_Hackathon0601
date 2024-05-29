@@ -4,21 +4,22 @@
     flex-direction: row; 
     justify-content: center; 
     width: 100%; 
+    overflow : hidden;
 }
 
-.element .overlap-wrapper {   
+/* .element .overlap-wrapper {   
     background-color: #ffffff;   
     height: 1080px;   
-    overflow: hidden;   
+    overflow: hidden;   // .element로 이동
     width: 1920px; 
-}
+} */
 
-.element .overlap {   
-    height: 1081px;   
-    left: -1px;   
+.element .overlap {  
+    width: 1920px;  
+    height: 1080px;   
+    left: 0px;   
+    top: 0px;   
     position: relative;   
-    top: -1px;   
-    width: 1922px; 
 }  
 
 .element .map {   
@@ -58,7 +59,7 @@
     width: 383px; 
 }
 
-.element .view {   
+.element .middleSide {   
     height: 668px;   
     left: 63px;   
     overflow: hidden;   
@@ -67,7 +68,7 @@
     width: 340px; 
 }
 
-.element .div {   
+.element .storeContent {   
     background-color: #f7f7f7;   
     border: 1.5px solid;   
     border-color: #7b7b7b;   
@@ -80,7 +81,7 @@
     width: 340px; 
 }
 
-.element .text-wrapper {   
+.element .text-regionNumber {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 15px;   
@@ -93,7 +94,7 @@
     width: 166px; 
 }
 
-.element .text-wrapper-2 {   
+.element .text-postalCode {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 15px;   
@@ -106,7 +107,7 @@
     white-space: nowrap; 
 }
 
-.element .p {   
+.element .text-address {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 15px;   
@@ -119,7 +120,7 @@
     width: 245px; 
 }
 
-.element .text-wrapper-3 {   
+.element .text-phoneNumber {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 15px;   
@@ -141,7 +142,7 @@
     width: 30px; 
 }
 
-.element .div-2 {   
+.element .umbrellaCntFrame {   
     border: 1px solid;   
     border-color: #ff5858;   
     border-radius: 20px;   
@@ -153,7 +154,7 @@
     width: 145px; 
 }
 
-.element .overlap-group {   
+.element .umbrellaCntBack {   
     background-color: #ff5858;   
     border-radius: 20px;   
     height: 24px;   
@@ -163,21 +164,21 @@
     width: 40px; 
 }
 
-.element .text-wrapper-4 {   
+.element .text-umbrellaCnt {   
     color: #ffffff;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 15px;   
     font-weight: 600;   
-    left: 8px;   
+    left: 9px;   
     letter-spacing: 0;   
     line-height: normal;   
     position: absolute;   
-    top: 3px;   
+    top: 2px;   
     white-space: nowrap;   
     width: 24px; 
 }
 
-.element .text-wrapper-5 {   
+.element .text-currentUmbrella {   
     color: #ff5858;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 15px;   
@@ -186,11 +187,11 @@
     letter-spacing: 0;   
     line-height: normal;   
     position: absolute;   
-    top: 1px;   
+    top: 2px;   
     white-space: nowrap; 
 }
 
-.element .text-wrapper-6 {   
+.element .text-storeName {   
     color: #000000;   
     font-family: "Inter-ExtraBold", Helvetica;   
     font-size: 35px;   
@@ -212,7 +213,7 @@
     width: 30px; 
 }
 
-.element .div-3 {   
+.element .storePic {   
     /* background-image: url(./1.png);    */
     background-position: 50% 50%;   
     background-size: cover;   
@@ -223,7 +224,7 @@
     width: 340px; 
 }  
 
-.element .view-2 {   
+.element .upperSide {   
     height: 42px;   
     left: 41px;   
     position: absolute;   
@@ -231,7 +232,7 @@
     width: 383px; 
 }
 
-.element .text-wrapper-7 {   
+.element .text-storeInfo {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 20px;   
@@ -244,7 +245,7 @@
     white-space: nowrap; 
 }
 
-.element .div-wrapper {   
+.element .back {   
     height: 42px;   
     left: 0;   
     position: absolute;   
@@ -252,7 +253,7 @@
     width: 34px; 
 }
 
-.element .text-wrapper-8 {   
+.element .text-back {   
     color: #000000;   
     font-family: "Inter-ExtraLight", Helvetica;   
     font-size: 35px;   
@@ -292,7 +293,7 @@
     width: 383px; 
 }
 
-.element .text-wrapper-9 {   
+.element .text-search {   
     color: #919191;   
     font-family: "Inter-Thin", Helvetica;   
     font-size: 18px;   
