@@ -38,7 +38,7 @@ const Findpage1 = () => {
     const mapContainer = document.getElementById("map"); // 지도를 표시할 div
     const mapOption = {
       center: new kakao.maps.LatLng(location.lat, location.lng), // 사용자 위치를 중심으로 지도 설정
-      level: 3, // 지도의 확대 레벨
+      level: 2, // 지도의 확대 레벨
     };
 
     // 지도 생성
@@ -210,8 +210,6 @@ const Findpage1 = () => {
               <img className="image-2" alt="아래선_가게" src="image-4.svg" />
             </div>
           </div>
-
-
         </div>
 
 
