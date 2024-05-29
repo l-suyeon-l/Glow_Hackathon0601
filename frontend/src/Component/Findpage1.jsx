@@ -48,7 +48,7 @@ const Findpage1 = () => {
                 <div className="umbrellaCntStroke">
                   <div className="text-currentUmbrella">현재 보유 우산</div>
                   <div className="umbrellaCntBack">
-                    <div className="text-wrapper">9개</div>
+                    <div className="text-umbrellaCnt">9개</div>
                   </div>
                 </div>
               </div>
@@ -82,7 +82,7 @@ const Findpage1 = () => {
                 <div className="umbrellaCntStroke">
                   <div className="text-currentUmbrella">현재 보유 우산</div>
                   <div className="umbrellaCntBack">
-                    <div className="text-wrapper">6개</div>
+                    <div className="text-umbrellaCnt">6개</div>
                   </div>
                 </div>
               </div>
@@ -117,7 +117,7 @@ const Findpage1 = () => {
                 <div className="umbrellaCntStroke">
                   <div className="text-currentUmbrella">현재 보유 우산</div>
                   <div className="umbrellaCntBack">
-                    <div className="text-wrapper">0개</div>
+                    <div className="text-umbrellaCnt">0개</div>
                   </div>
                 </div>
               </div>
@@ -148,11 +148,9 @@ const Findpage1 = () => {
               </div>
 
               <div className="umbrellaCntFrame">
-                <div className="umbrellaCntStroke">
-                  <div className="text-currentUmbrella">현재 보유 우산</div>
-                  <div className="umbrellaCntBack">
-                    <div className="text-wrapper">2개</div>
-                  </div>
+                <div className="text-currentUmbrella">현재 보유 우산</div>
+                <div className="umbrellaCntBack">
+                  <div className="text-umbrellaCnt">2개</div>
                 </div>
               </div>
 
@@ -166,32 +164,32 @@ const Findpage1 = () => {
 
 
 
-        {/* 헤더(네비게이터) */}
+        {/* 헤더(네비게이터)는 미수정 */}
         <div className="navigator">
           <div className="view">
-            <div className="view-2">
-              <div className="text-wrapper-8">회원가입</div>
+            <div className="singUp">
+              <div className="text-signUpNLogin">회원가입</div>
             </div>
-            <div className="view-3">
-              <div className="text-wrapper-8">로그인</div>
-            </div>
-          </div>
-          <div className="view-4">
-            <div className="div-wrapper-7">
-              <div className="text-wrapper-9">공지사항</div>
-            </div>
-            <div className="div-wrapper-8">
-              <div className="text-wrapper-10">가게 정보 등록</div>
-            </div>
-            <div className="div-wrapper-9">
-              <div className="text-wrapper-11">우산 재고 등록</div>
-            </div>
-            <div className="div-wrapper-10">
-              <div className="text-wrapper-11">우산 찾기</div>
+            <div className="logIn">
+              <div className="text-signUpNLogin">로그인</div>
             </div>
           </div>
-          <div className="view-5">
-            <div className="text-wrapper-12">BP해</div>
+          <div className="naviList">
+            <div className="findUmb">
+              <div className="text-list">우산 찾기</div>
+            </div>
+            <div className="umbEnroll">
+              <div className="text-list">우산 재고 등록</div>
+            </div>
+            <div className="storeInfo">
+              <div className="text-list">가게 정보 등록</div>
+            </div>
+            <div className="notice">
+              <div className="text-list">공지사항</div>
+            </div>
+          </div>
+          <div className="Logo">
+            <div className="text-logo">BP해</div>
           </div>
         </div>
 

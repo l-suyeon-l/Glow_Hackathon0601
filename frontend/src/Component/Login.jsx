@@ -5,17 +5,22 @@ const Login = () => {
   return (
     <div className="screen">
       <div className="div">
-        <div className="overlap-group">
+        
+        <div className="middleSide">
           <div className="view">
             <div className="text-login">로그인</div>
-            <div className="div-wrapper">
-                <div className="text-signup">회원가입</div>
+
+            <img className="naver-login" alt="naver-login" src="login_naver.png" />
+            <img className="google-login" alt="google-login" src="login_google.png"/>
+            <img className="kakao-login" alt="kakao-login" src="login_kakao.png" />
+
+            <div className="signUp">
+                <div className="text-signUp">회원가입</div>
             </div>
-            <img className="kakao-login" alt="kakao-login" src="kakao_login.png" />
-            <img className="naver-login" alt="naver-login" src="naver_login.png" />
-            <img className="google-login" alt="google-login" src="google_login.png"/>
           </div>
         </div>
+
+        {/* 네비게이터 */}
         <div className="navigator">
           <div className="view-right">
             <div className="SignUp">
@@ -43,6 +48,7 @@ const Login = () => {
             <div className="Logo">BP해</div>
           </div>
         </div>
+        
       </div>
     </div>
   );

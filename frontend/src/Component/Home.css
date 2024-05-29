@@ -14,7 +14,7 @@
     width: 1920px;
 } */
 
-.screen .overlap-group {
+.screen .background {
     height: 1081px;
     left: -1px;
     position: relative;
@@ -28,16 +28,21 @@
     height: 980px;
     left: 1px;
     position: absolute;
-    top: 0px;
+    top: 100px;
     width: 1920px;
 }
 
 .screen .image {
     object-fit: cover;
     position: absolute;
-    top: 101px;
+    left: 0px;
+    top: 0px;
     width: 1920px;
     height: 980px;
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.04) 100%);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 117, 255, 0.04) 0%, rgba(0, 117, 255, 0.2) 100%); */
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.2) 100%);
+    background: radial-gradient(circle, rgba(0, 117, 255, 0.2) 0%, rgba(0, 117, 255, 1) 100%);
 }
 
 .screen .text-1 {

@@ -22,7 +22,7 @@
     width: 1920px; 
 }
 
-.screen .view {   
+ .screen .middle {   
     height: 799px;   
     left: 0;   
     position: absolute;   
@@ -30,7 +30,7 @@
     width: 1920px; 
 }
 
-.screen .view-2 {   
+.screen .umbrellaStock {   
     height: 190px;   
     left: 612px;   
     position: absolute;   
@@ -38,7 +38,7 @@
     width: 696px; 
 }
 
-.screen .div-wrapper {   
+.screen .inputCurrentUmbrella {   
     align-items: flex-start;   
     background-color: #ffffff;   
     border: 2px solid;   
@@ -56,7 +56,7 @@
     width: 520px; 
 }
 
-.screen .text-wrapper {   
+.screen .text-currentUmbrella {   
     color: #000000;   
     font-family: "Inter-Thin", Helvetica;   
     font-size: 20px;   
@@ -69,7 +69,7 @@
     width: 493px; 
 }
 
-.screen .text-wrapper-2 {   
+.screen .text-umbrellaStock {   
     color: #000000;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 35px;   
@@ -83,7 +83,7 @@
     width: 170px; 
 }
 
-.screen .view-3 {   
+.screen .OK {   
     background-color: #0075ff;   
     border: 0px none;   
     border-radius: 15px;   
@@ -95,7 +95,7 @@
     width: 100px; 
 }
 
-.screen .text-wrapper-3 {   
+.screen .text-OK {   
     color: #ffffff;   
     font-family: "Inter-Thin", Helvetica;   
     font-size: 24px;   
@@ -110,7 +110,7 @@
     width: 98px; 
 }
 
-.screen .overlap-group {   
+.screen .storeInfo {   
     height: 258px;   
     left: 638px;   
     position: absolute;   
@@ -118,7 +118,7 @@
     width: 644px; 
 }
 
-.screen .view-4 {   
+.screen .storeInfoContent {   
     border-bottom-style: solid;   
     border-bottom-width: 5px;   
     border-color: #0075ff;   
@@ -133,7 +133,15 @@
     width: 644px; 
 }
 
-.screen .div-2 {   
+.screen .storeName {   
+    height: 42px;   
+    left: 54px;   
+    position: absolute;   
+    top: 66px;   
+    width: 190px; 
+}
+
+.screen .storeAddress {   
     height: 42px;   
     left: 54px;   
     position: absolute;   
@@ -141,7 +149,7 @@
     width: 536px; 
 }
 
-.screen .text-wrapper-4 {   
+.screen .text-storeName {   
     color: #373737;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 35px;   
@@ -154,12 +162,13 @@
     white-space: nowrap; 
 }
 
-.screen .p {   
+
+.screen .text-storeAddress {   
     color: #373737;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 35px;   
     font-weight: 500;   
-    left: 92px;   
+    left: 35px;   
     letter-spacing: 0;   
     line-height: normal;   
     position: absolute;   
@@ -167,15 +176,7 @@
     white-space: nowrap; 
 }
 
-.screen .div-3 {   
-    height: 42px;   
-    left: 54px;   
-    position: absolute;   
-    top: 66px;   
-    width: 190px; 
-}
-
-.screen .text-wrapper-5 {   
+.screen .text-content {   
     color: #373737;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 35px;   
@@ -188,7 +189,7 @@
     white-space: nowrap; 
 }
 
-.screen .div-4 {   
+.screen .storeInfoTitle {   
     background-color: #0075ff;   
     border-radius: 50px;   
     height: 65px;   
@@ -199,7 +200,7 @@
     width: 376px; 
 }
 
-.screen .text-wrapper-6 {   
+.screen .text-storeInfo {   
     color: #000000;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 35px;   
@@ -212,7 +213,7 @@
     white-space: nowrap; 
 }
 
-.screen .text-wrapper-7 {   
+.screen .text-user {   
     color: #ffffff;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 35px;   
@@ -225,7 +226,7 @@
     white-space: nowrap; 
 }
 
-.screen .view-5 {   
+.screen .upper {   
     background-color: #0075ff;   
     height: 181px;   
     left: 0;   
@@ -234,7 +235,7 @@
     width: 1920px; 
 }
 
-.screen .text-wrapper-8 {   
+.screen .text-upper {   
     color: #ffffff;   
     font-family: "Inter-Black", Helvetica;   
     font-size: 50px;   

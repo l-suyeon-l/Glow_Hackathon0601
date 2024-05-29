@@ -4,6 +4,7 @@ import Home from './Component/Home';
 import Findpage1 from './Component/Findpage1';
 import Findpage2 from './Component/Findpage2';
 import StoreInfo from './Component/StoreInfo';
+import Umbenroll1 from './Component/Umbenroll1';
 import Umbenroll2 from './Component/Umbenroll2';
 import Login from './Component/Login';
 
