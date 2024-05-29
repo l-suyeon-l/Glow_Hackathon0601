@@ -7,24 +7,24 @@
     overflow: hidden;
 }
 
-/* .screen .overlap-group-wrapper {
+.screen .overlap-group-wrapper {
     background-color: #ffffff;
     height: 1080px;
     overflow: hidden;
     width: 1920px;
-} */
+}
 
 .screen .background {
-    height: 1081px;
+    width: 1920px;
+    height: 1080px;
     left: -1px;
     position: relative;
     top: -1px;
-    width: 1922px;
 }
 
 .screen .sliding {
-    /* background-image: url(./public/umbrella.jpg);
-    background-size: 100% 100%;  */
+    /* background-image: url(./public/umbrella.jpg);*/
+    background-size: 100% 100%;
     height: 980px;
     left: 1px;
     position: absolute;

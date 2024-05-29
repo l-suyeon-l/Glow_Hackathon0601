@@ -3,7 +3,7 @@ import "./StoreInfo.css";
 
 const StoreInfo = () => {
     return (
-        <div className="screen">
+        <div className="StoreInfo">
             <div className="div">
                 <div className="background">
 

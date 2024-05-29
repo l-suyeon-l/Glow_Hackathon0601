@@ -3,7 +3,7 @@ import "./Findpage2.css";
 
 const Findpage2 = () => {
   return (
-    <div className="element">
+    <div className="Findpage2">
       <div className="overlap">
 
         {/* 지도 */}

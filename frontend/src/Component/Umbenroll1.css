@@ -1,4 +1,4 @@
-.screen {   
+.Umbenroll1 {   
     background-color: #ffffff;   
     display: flex;   
     flex-direction: row;   
@@ -6,14 +6,14 @@
     width: 100%; 
 }
 
-.screen .div {   
+.Umbenroll1 .div {   
     background-color: #ffffff;   
     height: 1080px;   
     position: relative;   
     width: 1920px; 
 }
 
-.screen .background {   
+.Umbenroll1 .background {   
     background-color: #ffffff;   
     height: 980px;   
     left: 0;   
@@ -22,7 +22,7 @@
     width: 1920px; 
 }
 
- .screen .middle {   
+ .Umbenroll1 .middle {   
     height: 799px;   
     left: 0;   
     position: absolute;   
@@ -30,7 +30,7 @@
     width: 1920px; 
 }
 
-.screen .umbrellaStock {   
+.Umbenroll1 .umbrellaStock {   
     height: 190px;   
     left: 612px;   
     position: absolute;   
@@ -38,7 +38,7 @@
     width: 696px; 
 }
 
-.screen .inputCurrentUmbrella {   
+.Umbenroll1 .inputCurrentUmbrella {   
     align-items: flex-start;   
     background-color: #ffffff;   
     border: 2px solid;   
@@ -56,7 +56,7 @@
     width: 520px; 
 }
 
-.screen .text-currentUmbrella {   
+.Umbenroll1 .text-currentUmbrella {   
     color: #000000;   
     font-family: "Inter-Thin", Helvetica;   
     font-size: 20px;   
@@ -69,7 +69,7 @@
     width: 493px; 
 }
 
-.screen .text-umbrellaStock {   
+.Umbenroll1 .text-umbrellaStock {   
     color: #000000;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 35px;   
@@ -83,7 +83,7 @@
     width: 170px; 
 }
 
-.screen .OK {   
+.Umbenroll1 .OK {   
     background-color: #0075ff;   
     border: 0px none;   
     border-radius: 15px;   
@@ -95,7 +95,7 @@
     width: 100px; 
 }
 
-.screen .text-OK {   
+.Umbenroll1 .text-OK {   
     color: #ffffff;   
     font-family: "Inter-Thin", Helvetica;   
     font-size: 24px;   
@@ -110,7 +110,7 @@
     width: 98px; 
 }
 
-.screen .storeInfo {   
+.Umbenroll1 .storeInfo {   
     height: 258px;   
     left: 638px;   
     position: absolute;   
@@ -118,7 +118,7 @@
     width: 644px; 
 }
 
-.screen .storeInfoContent {   
+.Umbenroll1 .storeInfoContent {   
     border-bottom-style: solid;   
     border-bottom-width: 5px;   
     border-color: #0075ff;   
@@ -133,7 +133,7 @@
     width: 644px; 
 }
 
-.screen .storeName {   
+.Umbenroll1 .storeName {   
     height: 42px;   
     left: 54px;   
     position: absolute;   
@@ -141,7 +141,7 @@
     width: 190px; 
 }
 
-.screen .storeAddress {   
+.Umbenroll1 .storeAddress {   
     height: 42px;   
     left: 54px;   
     position: absolute;   
@@ -149,7 +149,7 @@
     width: 536px; 
 }
 
-.screen .text-storeName {   
+.Umbenroll1 .text-storeName {   
     color: #373737;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 35px;   
@@ -163,7 +163,7 @@
 }
 
 
-.screen .text-storeAddress {   
+.Umbenroll1 .text-storeAddress {   
     color: #373737;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 35px;   
@@ -176,7 +176,7 @@
     white-space: nowrap; 
 }
 
-.screen .text-content {   
+.Umbenroll1 .text-content {   
     color: #373737;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 35px;   
@@ -189,7 +189,7 @@
     white-space: nowrap; 
 }
 
-.screen .storeInfoTitle {   
+.Umbenroll1 .storeInfoTitle {   
     background-color: #0075ff;   
     border-radius: 50px;   
     height: 65px;   
@@ -200,7 +200,7 @@
     width: 376px; 
 }
 
-.screen .text-storeInfo {   
+.Umbenroll1 .text-storeInfo {   
     color: #000000;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 35px;   
@@ -213,7 +213,7 @@
     white-space: nowrap; 
 }
 
-.screen .text-user {   
+.Umbenroll1 .text-user {   
     color: #ffffff;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 35px;   
@@ -226,7 +226,7 @@
     white-space: nowrap; 
 }
 
-.screen .upper {   
+.Umbenroll1 .upper {   
     background-color: #0075ff;   
     height: 181px;   
     left: 0;   
@@ -235,7 +235,7 @@
     width: 1920px; 
 }
 
-.screen .text-upper {   
+.Umbenroll1 .text-upper {   
     color: #ffffff;   
     font-family: "Inter-Black", Helvetica;   
     font-size: 50px;   
@@ -249,7 +249,7 @@
     top: 50px; 
 }
 
-.screen .navigator-login {   
+.Umbenroll1 .navigator-login {   
     height: 100px;   
     left: 0;   
     position: absolute;   
@@ -257,7 +257,7 @@
     width: 1920px; 
 }
 
-.screen .view-6 {   
+.Umbenroll1 .view-6 {   
     height: 22px;   
     left: 1583px;   
     position: absolute;   
@@ -265,7 +265,7 @@
     width: 244px; 
 }
 
-.screen .view-7 {   
+.Umbenroll1 .view-7 {   
     height: 22px;   
     left: 161px;   
     position: absolute;   
@@ -273,7 +273,7 @@
     width: 83px; 
 }
 
-.screen .text-wrapper-9 {   
+.Umbenroll1 .text-wrapper-9 {   
     color: #373737;   
     font-family: "Inter-Thin", Helvetica;   
     font-size: 18px;   
@@ -285,14 +285,14 @@
     top: -1px; 
 }
 
-.screen .view-8 {   
+.Umbenroll1 .view-8 {   
     height: 22px;   
     left: 55px;   
     position: absolute;   
     top: 0;   width: 67px; 
 }
 
-.screen .view-9 {   
+.Umbenroll1 .view-9 {   
     height: 30px;   
     left: 530px;   
     position: absolute;   
@@ -300,7 +300,7 @@
     width: 808px; 
 }
 
-.screen .element {   
+.Umbenroll1 .element {   
     height: 30px;   
     left: 715px;  
     position: absolute;   
@@ -308,7 +308,7 @@
     width: 93px; 
 }
 
-.screen .text-wrapper-10 {   
+.Umbenroll1 .text-wrapper-10 {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 25px;   
@@ -321,7 +321,7 @@
     width: 93px; 
 }
 
-.screen .element-2 {   
+.Umbenroll1 .element-2 {   
     height: 30px;   
     left: 459px;   
     position: absolute;   
@@ -329,7 +329,7 @@
     width: 152px; 
 }
 
-.screen .text-wrapper-11 {   
+.Umbenroll1 .text-wrapper-11 {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 25px;   
@@ -342,7 +342,7 @@
     width: 152px; 
 }
 
-.screen .element-3 {   
+.Umbenroll1 .element-3 {   
     height: 30px;   
     left: 203px;   
     position: absolute;   
@@ -350,7 +350,7 @@
     width: 152px; 
 }
 
-.screen .text-wrapper-12 {   
+.Umbenroll1 .text-wrapper-12 {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 25px;   
@@ -363,7 +363,7 @@
     white-space: nowrap; 
 }
 
-.screen .element-4 {   
+.Umbenroll1 .element-4 {   
     height: 30px;   
     left: 0;   
     position: absolute;   
@@ -371,7 +371,7 @@
     width: 99px; 
 }
 
-.screen .view-10 {  
+.Umbenroll1 .view-10 {  
     height: 61px;   
     left: 74px;   
     position: absolute;   
@@ -379,7 +379,7 @@
     width: 113px; 
 }
 
-.screen .text-wrapper-13 {   
+.Umbenroll1 .text-wrapper-13 {   
     color: #0075ff;   
     font-family: "Inter-Black", Helvetica;   
     font-size: 50px;   

@@ -2,7 +2,7 @@ import React from "react";
 
 const Navigator = () => {
     return (
-    <div className="screen">
+    <div className="NavigatorP">
       <div className="overlap-group-wrapper">
         <div className="overlap-group">
           

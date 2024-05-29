@@ -3,7 +3,7 @@ import "./Login.css";
 
 const Login = () => {
   return (
-    <div className="screen">
+    <div className="LoginP">
       <div className="div">
         
         <div className="middleSide">

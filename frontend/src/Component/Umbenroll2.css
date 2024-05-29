@@ -1,4 +1,4 @@
-.div-wrapper {   
+.Umbenroll2 {   
     background-color: #ffffff;   
     display: flex;   
     flex-direction: row;   
@@ -6,14 +6,14 @@
     width: 100%; 
 }
 
-.div-wrapper .div {   
+.Umbenroll2 .div {   
     background-color: #ffffff;   
     height: 1080px;   
     position: relative;   
     width: 1920px; 
 }
 
-.div-wrapper .background {   
+.Umbenroll2 .background {   
     background-color: #ffffff;   
     height: 980px;   
     left: 0;   
@@ -22,7 +22,7 @@
     width: 1920px; 
 }
 
-.div-wrapper .middleSide {   
+.Umbenroll2 .middleSide {   
     height: 488px;   
     left: 387px;   
     position: absolute;   
@@ -30,7 +30,7 @@
     width: 1145px; 
 }
 
-.div-wrapper .button {   
+.Umbenroll2 .button {   
     border: 3px solid;   
     border-color: #0075ff;   
     border-radius: 50px;   
@@ -42,22 +42,22 @@
     width: 444px; 
 }
 
-.div-wrapper .text-gotoStoreInfo {   
+.Umbenroll2 .text-gotoStoreInfo {   
     color: #000000;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 30px;   
     font-weight: 600;   
     height: 42px;   
-    left: 23px;   
+    left: 15px;   
     letter-spacing: 0;   
     line-height: normal;   
     position: absolute;   
     text-align: center;   
     top: 9px;   
-    width: 313px; 
+    width: 350px; 
 }
 
-.div-wrapper .go {   
+.Umbenroll2 .go {   
     background-color: #0075ff;   
     border-radius: 50px;   
     height: 66px;   
@@ -68,7 +68,7 @@
     width: 98px; 
 }
 
-.div-wrapper .text-go {   
+.Umbenroll2 .text-go {   
     color: #ffffff;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 50px;   
@@ -84,7 +84,7 @@
     width: 38px; 
 }
 
-.div-wrapper .text-warningMessage {   
+.Umbenroll2 .text-warningMessage {   
     color: #000000;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 40px;   
@@ -96,10 +96,10 @@
     position: absolute;   
     text-align: center;   
     top: 201px;   
-    width: 984px; 
+    width: 1084px; 
 }
 
-.div-wrapper .text-warning {   
+.Umbenroll2 .text-warning {   
     color: #000000;   
     font-family: "Inter-Black", Helvetica;   
     font-size: 70px;   
@@ -112,7 +112,7 @@
     top: 78px; 
 }
 
-.div-wrapper .upperSide {   
+.Umbenroll2 .upperSide {   
     background-color: #0075ff;   
     height: 181px;   
     left: 0;   
@@ -121,7 +121,7 @@
     width: 1920px; 
 }
 
-.div-wrapper .text-page {   
+.Umbenroll2 .text-page {   
     color: #ffffff;   
     font-family: "Inter-Black", Helvetica;   
     font-size: 50px;   
@@ -135,7 +135,7 @@
     top: 50px; 
 }
 
-.div-wrapper .navigator-login {   
+.Umbenroll2 .navigator-login {   
     height: 100px;   
     left: 0;  
     position: absolute;   
@@ -143,7 +143,7 @@
     width: 1920px; 
 }
 
-.div-wrapper .view-4 {   
+.Umbenroll2 .view-4 {   
     height: 22px;   
     left: 1583px;   
     position: absolute;   
@@ -151,7 +151,7 @@
     width: 244px; 
 }
 
-.div-wrapper .view-5 {   
+.Umbenroll2 .view-5 {   
     height: 22px;   
     left: 161px;   
     position: absolute;   
@@ -159,7 +159,7 @@
     width: 83px; 
 }
 
-.div-wrapper .text-wrapper-5 {   
+.Umbenroll2 .text-wrapper-5 {   
     color: #373737;   
     font-family: "Inter-Thin", Helvetica;   
     font-size: 18px;   
@@ -171,7 +171,7 @@
     top: -1px; 
 }
 
-.div-wrapper .view-6 {   
+.Umbenroll2 .view-6 {   
     height: 22px;   
     left: 55px;   
     position: absolute;   
@@ -179,7 +179,7 @@
     width: 67px; 
 }
 
-.div-wrapper .view-7 {   
+.Umbenroll2 .view-7 {   
     height: 30px;   
     left: 530px;   
     position: absolute;   
@@ -187,7 +187,7 @@
     width: 808px; 
 }
 
-.div-wrapper .element {   
+.Umbenroll2 .element {   
     height: 30px;   
     left: 715px;   
     position: absolute;   
@@ -195,7 +195,7 @@
     width: 93px; 
 }
 
-.div-wrapper .text-wrapper-6 {   
+.Umbenroll2 .text-wrapper-6 {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 25px;   
@@ -208,7 +208,7 @@
     width: 93px; 
 }
 
-.div-wrapper .element-2 {   
+.Umbenroll2 .element-2 {   
     height: 30px;   
     left: 459px;   
     position: absolute;   
@@ -216,7 +216,7 @@
     width: 152px; 
 }
 
-.div-wrapper .text-wrapper-7 {   
+.Umbenroll2 .text-wrapper-7 {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 25px;   
@@ -229,7 +229,7 @@
     width: 152px; 
 }
 
-.div-wrapper .element-3 {   
+.Umbenroll2 .element-3 {   
     height: 30px;   
     left: 203px;   
     position: absolute;   
@@ -237,7 +237,7 @@
     width: 152px; 
 }
 
-.div-wrapper .text-wrapper-8 {   
+.Umbenroll2 .text-wrapper-8 {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 25px;   
@@ -250,7 +250,7 @@
     white-space: nowrap; 
 }
 
-.div-wrapper .element-4 {   
+.Umbenroll2 .element-4 {   
     height: 30px;   
     left: 0;   
     position: absolute;   
@@ -258,7 +258,7 @@
     width: 99px; 
 }
       
-.div-wrapper .view-8 {   
+.Umbenroll2 .view-8 {   
     height: 61px;   
     left: 74px;   
     position: absolute;   
@@ -266,7 +266,7 @@
     width: 113px; 
 }
 
-.div-wrapper .text-wrapper-9 {   
+.Umbenroll2 .text-wrapper-9 {   
     color: #0075ff;   
     font-family: "Inter-Black", Helvetica;   
     font-size: 50px;   

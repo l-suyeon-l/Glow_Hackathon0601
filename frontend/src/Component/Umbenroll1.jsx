@@ -3,7 +3,7 @@ import "./Umbenroll1.css";
 
 const Umbenroll1 = () => {   
   return (     
-        <div className="screen">       
+        <div className="Umbenroll1">       
             <div className="div">         
                 <div className="background"> 
 

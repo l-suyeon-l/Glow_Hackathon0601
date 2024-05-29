@@ -3,7 +3,7 @@ import "./Findpage1.css";
 
 const Findpage1 = () => {
   return (
-    <div className="element">
+    <div className="Findpage1">
       <div className="overlap">
 
         {/* 지도 */}
@@ -148,9 +148,11 @@ const Findpage1 = () => {
               </div>
 
               <div className="umbrellaCntFrame">
-                <div className="text-currentUmbrella">현재 보유 우산</div>
-                <div className="umbrellaCntBack">
-                  <div className="text-umbrellaCnt">2개</div>
+                <div className="umbrellaCntStroke">
+                  <div className="text-currentUmbrella">현재 보유 우산</div>
+                  <div className="umbrellaCntBack">
+                    <div className="text-umbrellaCnt">2개</div>
+                  </div>
                 </div>
               </div>
 

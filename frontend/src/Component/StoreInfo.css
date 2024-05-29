@@ -1,4 +1,4 @@
-.screen {
+.StoreInfo {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -6,14 +6,14 @@
     width: 100%;
 }
 
-.screen .div {
+.StoreInfo .div {
     background-color: #ffffff;
     height: 1080px;
     position: relative;
     width: 1920px;
 }
 
-.screen .background {
+.StoreInfo .background {
     height: 980px;
     left: 0;
     position: absolute;
@@ -21,7 +21,7 @@
     width: 1920px;
 }
 
-.screen .middle {
+.StoreInfo .middle {
     height: 799px;
     left: 0;
     position: absolute;
@@ -29,7 +29,7 @@
     width: 1920px;
 }
 
-.screen .storeAddress {
+.StoreInfo .storeAddress {
     height: 190px;
     left: 612px;
     position: absolute;
@@ -37,7 +37,7 @@
     width: 696px;
 }
 
-.screen .storeName {
+.StoreInfo .storeName {
     height: 190px;
     left: 612px;
     position: absolute;
@@ -45,7 +45,7 @@
     width: 696px;
 }
 
-.screen .businessNumber {
+.StoreInfo .businessNumber {
     height: 190px;
     left: 612px;
     position: absolute;
@@ -53,7 +53,7 @@
     width: 696px;
 }
 
-.screen .textA {
+.StoreInfo .textA {
     color: #000000;
     font-family: "Inter-SemiBold", Helvetica;
     font-size: 35px;
@@ -64,10 +64,10 @@
     line-height: normal;
     position: absolute;
     top: 55px;
-    width: 170px;
+    width: 200px;
 }
 
-.screen .input {
+.StoreInfo .input {
     align-items: flex-start;
     background-color: #ffffff;
     border: 2px solid;
@@ -85,7 +85,7 @@
     width: 520px;
 }
 
-.screen .text-input {
+.StoreInfo .text-input {
     color: #000000;
     font-family: "Inter-Thin", Helvetica;
     font-size: 20px;
@@ -98,7 +98,7 @@
     width: 257px;
 }
 
-.screen .OK {
+.StoreInfo .OK {
     background-color: #0075ff;
     border: 0px none;
     border-radius: 15px;
@@ -110,8 +110,8 @@
     width: 100px;
 }
 
-.screen .text-OK {
-    color: #ffffff;
+.StoreInfo .text-OK {
+    /* color: #ffffff; */
     font-family: "Inter-Thin", Helvetica;
     font-size: 24px;
     font-weight: 100;
@@ -125,7 +125,7 @@
     width: 98px;
 }
 
-.screen .background .upper {
+.StoreInfo .background .upper {
     background-color: #0075ff;
     height: 181px;
     left: 0;
@@ -134,7 +134,7 @@
     width: 1920px;
 }
 
-.screen .background .text-upper {
+.StoreInfo .background .text-upper {
     color: #ffffff;
     font-family: "Inter-Black", Helvetica;
     font-size: 50px;
@@ -148,7 +148,7 @@
     top: 50px;
 }
 
-.screen .navigator {
+.StoreInfo .navigator {
     height: 100px;
     left: 0;
     position: absolute;
@@ -156,7 +156,7 @@
     width: 1920px;
 }
 
-.screen .view-right {
+.StoreInfo .view-right {
     height: 22px;
     left: 1584px;
     position: absolute;
@@ -164,7 +164,7 @@
     width: 244px;
 }
 
-.screen .text-right {
+.StoreInfo .text-right {
     height: 22px;
     left: 161px;
     position: absolute;
@@ -172,7 +172,7 @@
     width: 90px;
 }
 
-.screen .Mypage {
+.StoreInfo .Mypage {
     color: #373737;
     font-family: "Inter-Thin", Helvetica;
     font-size: 22px;
@@ -184,7 +184,7 @@
     top: 0;
 }
 
-.screen .Logout {
+.StoreInfo .Logout {
     height: 22px;
     left: 90px;
     position: absolute;
@@ -192,7 +192,7 @@
     width: 50px;
 }
 
-.screen .view-middle {
+.StoreInfo .view-middle {
     height: 30px;
     left: 531px;
     position: absolute;
@@ -200,7 +200,7 @@
     width: 808px;
 }
 
-.screen .element {
+.StoreInfo .element {
     height: 30px;
     left: 715px;
     position: absolute;
@@ -208,7 +208,7 @@
     width: 93px;
 }
 
-.screen .text-notice {
+.StoreInfo .text-notice {
     color: #000000;
     font-family: "Inter-Medium", Helvetica;
     font-size: 25px;
@@ -221,7 +221,7 @@
     width: 93px;
 }
 
-.screen .element-2 {
+.StoreInfo .element-2 {
     height: 30px;
     left: 459px;
     position: absolute;
@@ -229,7 +229,7 @@
     width: 152px;
 }
 
-.screen .text-storeinfo {
+.StoreInfo .text-storeinfo {
     color: #000000;
     font-family: "Inter-Medium", Helvetica;
     font-size: 25px;
@@ -242,7 +242,7 @@
     width: 152px;
 }
 
-.screen .element-3 {
+.StoreInfo .element-3 {
     height: 30px;
     left: 203px;
     position: absolute;
@@ -250,7 +250,7 @@
     width: 152px;
 }
 
-.screen .text-umbrella {
+.StoreInfo .text-umbrella {
     color: #000000;
     font-family: "Inter-Medium", Helvetica;
     font-size: 25px;
@@ -263,7 +263,7 @@
     white-space: nowrap;
 }
 
-.screen .element-4 {
+.StoreInfo .element-4 {
     height: 30px;
     left: 0;
     position: absolute;
@@ -271,7 +271,7 @@
     width: 99px;
 }
 
-.screen .view-left {
+.StoreInfo .view-left {
     height: 61px;
     left: 75px;
     position: absolute;
@@ -279,7 +279,7 @@
     width: 113px;
 }
 
-.screen .Logo {
+.StoreInfo .Logo {
     color: #0075ff;
     font-family: "Inter-Black", Helvetica;
     font-size: 50px;

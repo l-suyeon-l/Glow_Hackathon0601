@@ -9,7 +9,7 @@ const Umbenroll2 = () => {
         navigate(path);
     };
     return (     
-        <div className="div-wrapper">       
+        <div className="Umbenroll2">       
             <div className="div">         
                 <div className="background">  
                     

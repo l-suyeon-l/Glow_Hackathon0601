@@ -1,4 +1,4 @@
-.element { 
+.Findpage2 { 
     background-color: #ffffff; 
     display: flex; 
     flex-direction: row; 
@@ -7,14 +7,14 @@
     overflow : hidden;
 }
 
-/* .element .overlap-wrapper {   
+/* .Findpage2 .overlap-wrapper {   
     background-color: #ffffff;   
     height: 1080px;   
-    overflow: hidden;   // .element로 이동
+    overflow: hidden;   // .Findpage2로 이동
     width: 1920px; 
 } */
 
-.element .overlap {  
+.Findpage2 .overlap {  
     width: 1920px;  
     height: 1080px;   
     left: 0px;   
@@ -22,7 +22,7 @@
     position: relative;   
 }  
 
-.element .map {   
+.Findpage2 .map {   
     background-color: #f2f1ec;   
     height: 980px;   
     left: 1px;   
@@ -31,7 +31,7 @@
     width: 1920px; 
 }
 
-.element .pop-up {   
+.Findpage2 .pop-up {   
     height: 876px;   
     left: 1389px;   
     position: absolute;   
@@ -39,7 +39,7 @@
     width: 466px; 
 }
 
-.element .store-list {   
+.Findpage2 .store-list {   
     background-color: #ffffff;   
     border-radius: 20px;   
     height: 783px;   
@@ -50,7 +50,7 @@
     width: 466px; 
 }
 
-.element .image {   
+.Findpage2 .image {   
     height: 1px;   
     left: 41px;   
     object-fit: cover;   
@@ -59,7 +59,7 @@
     width: 383px; 
 }
 
-.element .middleSide {   
+.Findpage2 .middleSide {   
     height: 668px;   
     left: 63px;   
     overflow: hidden;   
@@ -68,7 +68,7 @@
     width: 340px; 
 }
 
-.element .storeContent {   
+.Findpage2 .storeContent {   
     background-color: #f7f7f7;   
     border: 1.5px solid;   
     border-color: #7b7b7b;   
@@ -81,7 +81,7 @@
     width: 340px; 
 }
 
-.element .text-regionNumber {   
+.Findpage2 .text-regionNumber {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 15px;   
@@ -94,7 +94,7 @@
     width: 166px; 
 }
 
-.element .text-postalCode {   
+.Findpage2 .text-postalCode {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 15px;   
@@ -107,7 +107,7 @@
     white-space: nowrap; 
 }
 
-.element .text-address {   
+.Findpage2 .text-address {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 15px;   
@@ -120,7 +120,7 @@
     width: 245px; 
 }
 
-.element .text-phoneNumber {   
+.Findpage2 .text-phoneNumber {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 15px;   
@@ -133,7 +133,7 @@
     width: 245px; 
 }
 
-.element .location {   
+.Findpage2 .location {   
     height: 33px;   
     left: 28px;   
     object-fit: cover;   
@@ -142,7 +142,7 @@
     width: 30px; 
 }
 
-.element .umbrellaCntFrame {   
+.Findpage2 .umbrellaCntFrame {   
     border: 1px solid;   
     border-color: #ff5858;   
     border-radius: 20px;   
@@ -154,7 +154,7 @@
     width: 145px; 
 }
 
-.element .umbrellaCntBack {   
+.Findpage2 .umbrellaCntBack {   
     background-color: #ff5858;   
     border-radius: 20px;   
     height: 24px;   
@@ -164,7 +164,7 @@
     width: 40px; 
 }
 
-.element .text-umbrellaCnt {   
+.Findpage2 .text-umbrellaCnt {   
     color: #ffffff;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 15px;   
@@ -178,7 +178,7 @@
     width: 24px; 
 }
 
-.element .text-currentUmbrella {   
+.Findpage2 .text-currentUmbrella {   
     color: #ff5858;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 15px;   
@@ -191,7 +191,7 @@
     white-space: nowrap; 
 }
 
-.element .text-storeName {   
+.Findpage2 .text-storeName {   
     color: #000000;   
     font-family: "Inter-ExtraBold", Helvetica;   
     font-size: 35px;   
@@ -204,7 +204,7 @@
     white-space: nowrap; 
 }
 
-.element .telephone {   
+.Findpage2 .telephone {   
     height: 30px;   
     left: 28px;   
     object-fit: cover;   
@@ -213,7 +213,7 @@
     width: 30px; 
 }
 
-.element .storePic {   
+.Findpage2 .storePic {   
     /* background-image: url(./1.png);    */
     background-position: 50% 50%;   
     background-size: cover;   
@@ -224,7 +224,7 @@
     width: 340px; 
 }  
 
-.element .upperSide {   
+.Findpage2 .upperSide {   
     height: 42px;   
     left: 41px;   
     position: absolute;   
@@ -232,7 +232,7 @@
     width: 383px; 
 }
 
-.element .text-storeInfo {   
+.Findpage2 .text-storeInfo {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 20px;   
@@ -245,7 +245,7 @@
     white-space: nowrap; 
 }
 
-.element .back {   
+.Findpage2 .back {   
     height: 42px;   
     left: 0;   
     position: absolute;   
@@ -253,7 +253,7 @@
     width: 34px; 
 }
 
-.element .text-back {   
+.Findpage2 .text-back {   
     color: #000000;   
     font-family: "Inter-ExtraLight", Helvetica;   
     font-size: 35px;   
@@ -266,7 +266,7 @@
     white-space: nowrap; 
 }
 
-.element .search {   
+.Findpage2 .search {   
     background-color: #ffffff;   
     border-radius: 15px;   
     height: 71px;   
@@ -276,7 +276,7 @@
     width: 466px; 
 }
 
-.element .img {   
+.Findpage2 .img {   
     height: 32px;   
     left: 416px;   
     object-fit: cover;   
@@ -285,7 +285,7 @@
     width: 32px; 
 }
 
-.element .image-2 {   
+.Findpage2 .image-2 {   
     height: 1px;   
     left: 24px;   
     position: absolute;   
@@ -293,7 +293,7 @@
     width: 383px; 
 }
 
-.element .text-search {   
+.Findpage2 .text-search {   
     color: #919191;   
     font-family: "Inter-Thin", Helvetica;   
     font-size: 18px;   
@@ -305,7 +305,7 @@
     top: 24px; 
 }
 
-.element .navigator {   
+.Findpage2 .navigator {   
     border-bottom-style: solid;   
     border-bottom-width: 2px;   
     border-color: #0075ff80;   
@@ -316,7 +316,7 @@
     width: 1922px; 
 }
 
-.element .view-3 {   
+.Findpage2 .view-3 {   
     height: 22px;   
     left: 1583px;   
     position: absolute;   
@@ -324,7 +324,7 @@
     width: 244px; 
 }
 
-.element .view-4 {   
+.Findpage2 .view-4 {   
     height: 22px;   
     left: 177px;   
     position: absolute;   
@@ -332,7 +332,7 @@
     width: 67px; 
 }
 
-.element .text-wrapper-10 {   
+.Findpage2 .text-wrapper-10 {   
     color: #373737;   
     font-family: "Inter-Thin", Helvetica;   
     font-size: 18px;   
@@ -344,7 +344,7 @@
     top: -1px; 
 }
 
-.element .view-5 {   
+.Findpage2 .view-5 {   
     height: 22px;   
     left: 90px;   
     position: absolute;   
@@ -352,7 +352,7 @@
     width: 50px; 
 }
 
-.element .view-6 {   
+.Findpage2 .view-6 {   
     height: 30px;   
     left: 530px;   
     position: absolute;   
@@ -360,7 +360,7 @@
     width: 808px; 
 }
 
-.element .div-wrapper-2 {   
+.Findpage2 .div-wrapper-2 {   
     height: 30px;   
     left: 715px;   
     position: absolute;   
@@ -368,7 +368,7 @@
     width: 93px; 
 }
 
-.element .text-wrapper-11 {   
+.Findpage2 .text-wrapper-11 {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 25px;   
@@ -381,7 +381,7 @@
     width: 93px; 
 }
 
-.element .div-wrapper-3 {   
+.Findpage2 .div-wrapper-3 {   
     height: 30px;   
     left: 459px;   
     position: absolute;   
@@ -389,7 +389,7 @@
     width: 152px; 
 }
 
-.element .text-wrapper-12 {   
+.Findpage2 .text-wrapper-12 {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 25px;   
@@ -402,7 +402,7 @@
     width: 152px; 
 }
 
-.element .div-wrapper-4 {   
+.Findpage2 .div-wrapper-4 {   
     height: 30px;   
     left: 203px;   
     position: absolute;   
@@ -410,7 +410,7 @@
     width: 152px; 
 }
 
-.element .text-wrapper-13 {   
+.Findpage2 .text-wrapper-13 {   
     color: #000000;   
     font-family: "Inter-Medium", Helvetica;   
     font-size: 25px;   
@@ -423,7 +423,7 @@
     white-space: nowrap; 
 }
 
-.element .div-wrapper-5 {   
+.Findpage2 .div-wrapper-5 {   
     height: 30px;   
     left: 0;   
     position: absolute;   
@@ -431,7 +431,7 @@
     width: 99px; 
 }
 
-.element .view-7 {   
+.Findpage2 .view-7 {   
     height: 61px;   
     left: 74px;   
     position: absolute;   
@@ -439,7 +439,7 @@
     width: 113px; 
 }
 
-.element .text-wrapper-14 {   
+.Findpage2 .text-wrapper-14 {   
     color: #0075ff;   
     font-family: "Inter-Black", Helvetica;   
     font-size: 50px;   
