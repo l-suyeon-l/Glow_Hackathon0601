@@ -13,18 +13,17 @@ import './App.css';
 
 function App() {
   return (
-    // <Router>
-    //   <div>
-    //     <Routes>
-    //       <Route path="/" element={<Home />} />
-    //       <Route path="/findpage1" element={<Findpage1 />} />
-    //       <Route path="/login" element={<Login />} />
-    //       <Route path="/storeinfo" element={<StoreInfo />} />
-    //       <Route path="/umbenroll2" element={<Umbenroll2 />} />
-    //     </Routes>
-    //   </div>
-    // </Router>
-    <Findpage1 />
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/findpage1" element={<Findpage1 />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/storeinfo" element={<StoreInfo />} />
+          <Route path="/umbenroll2" element={<Umbenroll2 />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
