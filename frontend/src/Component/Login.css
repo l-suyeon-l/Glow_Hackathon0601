@@ -75,7 +75,7 @@
     /* background-position: 50% 50%;
     background-size: cover; */
     height: 57px;
-    left: 33px;
+    left: 115px;
     position: absolute;
     top: 355px;
     width: 400px;
@@ -96,11 +96,11 @@
     /* background-image: url(./kakao-login.png); */
     /* background-position: 50% 50%;
     background-size: cover; */
-    height: 54px;
-    left: 33px;
+    height: 57px;
+    left: 115px;
     position: absolute;
     top: 544px;
-    width: 400px;
+    width: 450px;
 }
 
 .LoginP .navigator {
