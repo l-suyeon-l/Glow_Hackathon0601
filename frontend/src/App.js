@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navigator from './Component/Navigator'
 import Home from './Component/Home';
 import Findpage1 from './Component/Findpage1';
 import Findpage2 from './Component/Findpage2';
@@ -13,6 +14,7 @@ import './App.css';
 function App() {
   return (
     <Router>
+      <Navigator />
       <div>
         <Routes>
           <Route path="/" element={<Home />} />

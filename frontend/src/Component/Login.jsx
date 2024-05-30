@@ -21,7 +21,7 @@ const Login = () => {
         </div>
 
         {/* 네비게이터 */}
-        <div className="navigator">
+        {/* <div className="navigator">
           <div className="view-right">
             <div className="SignUp">
               <div className="text-sign">회원가입</div>
@@ -47,7 +47,7 @@ const Login = () => {
           <div className="view-lefg">
             <div className="Logo">BP해</div>
           </div>
-        </div>
+        </div> */}
         
       </div>
     </div>

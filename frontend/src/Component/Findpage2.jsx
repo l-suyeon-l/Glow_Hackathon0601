@@ -58,7 +58,7 @@ const Findpage2 = () => {
 
 
         {/* 네비게이터는 미수정 */}
-        <div className="navigator">
+        {/* <div className="navigator">
           <div className="view-3">
             <div className="view-4">
               <div className="text-wrapper-10">회원가입</div>
@@ -84,7 +84,7 @@ const Findpage2 = () => {
           <div className="view-7">
             <div className="text-wrapper-14">BP해</div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

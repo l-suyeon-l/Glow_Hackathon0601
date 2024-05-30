@@ -25,8 +25,8 @@ const Home = () => {
           </div>
           
           {/* navigator */}
-          <div className="navigator">
-            {/* 회원가입 / 로그인 */}
+          {/* <div className="navigator">
+           
             <div className="view-right">
               <div className="SignUp" onClick={() => handleNavigation("/login")}>
                 <div className="text-sign">회원가입</div>
@@ -35,7 +35,7 @@ const Home = () => {
                 <div className="text-sign">로그인</div>
               </div>
             </div>
-            {/* 우산 찾기 / 우산 재고 등록 / 가게 정보 등록 / 공지사항 */}
+            
             <div className="view-middle">
               <div className="element">
                 <div className="text-notice">공지사항</div>
@@ -50,11 +50,14 @@ const Home = () => {
                 <div className="text-umbrella">우산 찾기</div>
               </div>
             </div>
-            {/* 로고 */}
+            
             <div className="view-left">
               <div className="Logo">BP해</div>
             </div>
-          </div>
+          </div> */}
+
+
+
         </div>
       </div>
     </div>

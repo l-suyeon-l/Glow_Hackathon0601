@@ -45,7 +45,7 @@ const StoreInfo = () => {
 
 
                 {/* 네비게이터는 미수정 */}
-                <div className="navigator">
+                {/* <div className="navigator">
                     <div className="view-right">
                         <div className="MyPage">
                             <div className="text-right">마이페이지</div>
@@ -71,7 +71,8 @@ const StoreInfo = () => {
                     <div className="view-left">
                         <div className="Logo">BP해</div>
                     </div>
-                </div>
+                </div> */}
+
             </div>
         </div>
     );

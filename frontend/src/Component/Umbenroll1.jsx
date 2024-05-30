@@ -44,7 +44,7 @@ const Umbenroll1 = () => {
 
 
                 {/* 네비게이터는 미수정 */}
-                <div className="navigator-login">           
+                {/* <div className="navigator-login">           
                     <div className="view-6">             
                         <div className="view-7">               
                             <div className="text-wrapper-9">마이페이지</div>             
@@ -70,7 +70,7 @@ const Umbenroll1 = () => {
                     <div className="view-10">             
                         <div className="text-wrapper-13">BP해</div>           
                     </div>         
-                </div>       
+                </div>        */}
 
             </div>     
         </div>   

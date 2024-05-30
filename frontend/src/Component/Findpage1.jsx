@@ -216,7 +216,7 @@ const Findpage1 = () => {
 
 
         {/* 헤더(네비게이터)는 미수정 */}
-        <div className="navigator">
+        {/* <div className="navigator">
           <div className="view">
             <div className="singUp">
               <div className="text-signUpNLogin">회원가입</div>
@@ -242,7 +242,7 @@ const Findpage1 = () => {
           <div className="Logo">
             <div className="text-logo">BP해</div>
           </div>
-        </div>
+        </div> */}
 
 
       </div>
