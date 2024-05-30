@@ -66,13 +66,13 @@ const Findpage1 = () => {
           {/* 팝업창 : 검색 */}
           <div className="search">
             <img className="image-3" alt="돋보기" src="imtc_search.png" />
-            <img className="image-4" alt="검색선" src="#" />
+            <img className="image-4" alt="검색선" src="line-search.png" />
             <div className="text-search">상호명 및 주소를 검색해주세요</div>
           </div>
 
           {/* 팝업창 : 가게목록 */}
           <div className="store-list">
-            <img className="image" alt="가게목록윗선" src="image.svg" />
+            <img className="image" alt="가게목록윗선" src="line-storelistupper.png" />
 
 
             <div className="store1">
@@ -104,7 +104,7 @@ const Findpage1 = () => {
                 </div>
               </div>
               
-              <img className="img" alt="아래선_가게" src="profile3.jpg" />
+              <img className="image-2" alt="아래선_가게" src="line-storelistlower.png" />
             </div>
 
 
@@ -138,7 +138,7 @@ const Findpage1 = () => {
                 </div>
               </div>
 
-              <img className="image-2" alt="Image" src="./Image/profile2.jpg" />
+              <img className="image-2" alt="아래선_가게" src="line-storelistlower.png" />
             </div>
 
 
@@ -173,7 +173,7 @@ const Findpage1 = () => {
                 </div>
               </div>
 
-              <img className="image-2" alt="아래선_가게" src="image-3.svg" />
+              <img className="image-2" alt="아래선_가게" src="line-storelistlower.png" />
             </div>
             
 
@@ -207,7 +207,7 @@ const Findpage1 = () => {
                 </div>
               </div>
 
-              <img className="image-2" alt="아래선_가게" src="image-4.svg" />
+              <img className="image-2" alt="아래선_가게" src="line-storelistlower.png" />
             </div>
           </div>
         </div>

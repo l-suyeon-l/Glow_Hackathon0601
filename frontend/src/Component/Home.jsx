@@ -16,7 +16,7 @@ const Home = () => {
 
           {/* content */}
           <div className="sliding">
-            <img className="image" alt="배경" src="umbrella.jpg" />
+            <img className="image" alt="배경" src="umbrella2.png" />
             <p className="text-1">비 오는 날, 우산이 없다면?</p>
             <p className="text-2">지금 바로 가까운 우산을 확인해보세요!</p>
             <button className="button" onClick={() => handleNavigation("/findpage1")}>
