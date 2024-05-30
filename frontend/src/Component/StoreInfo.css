@@ -75,13 +75,13 @@
     border-radius: 15px;
     display: flex;
     gap: 10px;
-    height: 50px;
-    left: 32px;
+    height: 30px;
+    left: 45px;
     opacity: 0.3;
     overflow: hidden;
     padding: 10px;
     position: absolute;
-    top: 115px;
+    top: 120px;
     width: 520px;
 }
 
@@ -103,25 +103,25 @@
     border: 0px none;
     border-radius: 15px;
     height: 50px;
-    left: 564px;
+    left: 600px;
     overflow: hidden;
     position: absolute;
-    top: 115px;
+    top: 120px;
     width: 100px;
 }
 
 .StoreInfo .text-OK {
-    /* color: #ffffff; */
+    color: #ffffff;
     font-family: "Inter-Thin", Helvetica;
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 500;
     height: 50px;
     left: 0px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 0;
+    top: 9px;
     width: 98px;
 }
 
