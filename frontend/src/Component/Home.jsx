@@ -19,9 +19,7 @@ const Home = () => {
             <img className="image" alt="배경" src="umbrella2.png" />
             <p className="text-1">비 오는 날, 우산이 없다면?</p>
             <p className="text-2">지금 바로 가까운 우산을 확인해보세요!</p>
-            <button className="button" onClick={() => handleNavigation("/findpage1")}>
-              <div className="Shortcuts">바로가기</div>
-            </button>
+            <button className="button" onClick={() => handleNavigation("/findpage1")}>바로가기</button>
           </div>
           
           {/* navigator */}
