@@ -108,6 +108,11 @@
     font-weight: 500;
 }
 
+.Umbenroll1 .OK:hover {
+    border: 2px solid #000000;
+    transition: all 0.2s ease-out;
+}
+
 /* .Umbenroll1 .text-OK {   
     color: #ffffff;   
     font-family: "Inter-Thin", Helvetica;   
