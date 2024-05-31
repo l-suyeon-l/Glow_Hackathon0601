@@ -19,6 +19,9 @@
     position: absolute;
     top: 0px;
     width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .StoreInfo .middle {
@@ -45,13 +48,13 @@
     width: 696px;
 }
 
-.StoreInfo .businessNumber {
+/* .StoreInfo .businessNumber {
     height: 190px;
     left: 612px;
     position: absolute;
     top: 404px;
     width: 696px;
-}
+} */
 
 .StoreInfo .textA {
     color: #000000;
@@ -59,7 +62,7 @@
     font-size: 35px;
     font-weight: 600;
     height: 44px;
-    left: 46px;
+    left: 102px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -70,22 +73,22 @@
 .StoreInfo .input {
     align-items: flex-start;
     background-color: #ffffff;
-    border: 2px solid;
+    border: 3px solid;
     border-color: #000000;
     border-radius: 15px;
     display: flex;
-    gap: 10px;
+    width: 520px;
     height: 30px;
-    left: 45px;
+    top: 120px;
+    left: 101px;
+    padding: 10px;
     opacity: 0.3;
     overflow: hidden;
-    padding: 10px;
     position: absolute;
-    top: 120px;
-    width: 520px;
+    font-size: 24px;
 }
 
-.StoreInfo .text-input {
+/* .StoreInfo .text-input {
     color: #000000;
     font-family: "Inter-Thin", Helvetica;
     font-size: 20px;
@@ -96,21 +99,37 @@
     margin-top: -2px;
     position: relative;
     width: 257px;
+} */
+
+.StoreInfo .input::placeholder {
+    color: #000000;
+    font-family: "Inter-Thin", Helvetica;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 .StoreInfo .OK {
     background-color: #0075ff;
     border: 0px none;
     border-radius: 15px;
-    height: 50px;
-    left: 600px;
+    height: 60px;
+    width: 120px;
+    color: #ffffff;
+    font-family: "Inter-Thin", Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    top: 500px;
+    left: 920px;
     overflow: hidden;
-    position: absolute;
-    top: 120px;
-    width: 100px;
+    position: relative;
 }
 
-.StoreInfo .text-OK {
+.StoreInfo .OK:hover {
+    border: 2px solid #000000;
+    transition: all 0.2s ease-out;
+}
+
+/* .StoreInfo .text-OK {
     color: #ffffff;
     font-family: "Inter-Thin", Helvetica;
     font-size: 24px;
@@ -123,7 +142,7 @@
     text-align: center;
     top: 9px;
     width: 98px;
-}
+} */
 
 .StoreInfo .background .upper {
     background-color: #0075ff;
@@ -146,147 +165,4 @@
     position: absolute;
     text-shadow: 0px 4px 4px #00000040;
     top: 50px;
-}
-
-.StoreInfo .navigator {
-    height: 100px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1920px;
-}
-
-.StoreInfo .view-right {
-    height: 22px;
-    left: 1584px;
-    position: absolute;
-    top: 39px;
-    width: 244px;
-}
-
-.StoreInfo .text-right {
-    height: 22px;
-    left: 161px;
-    position: absolute;
-    top: 0;
-    width: 90px;
-}
-
-.StoreInfo .Mypage {
-    color: #373737;
-    font-family: "Inter-Thin", Helvetica;
-    font-size: 22px;
-    font-weight: 177;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-}
-
-.StoreInfo .Logout {
-    height: 22px;
-    left: 90px;
-    position: absolute;
-    top: 0;
-    width: 50px;
-}
-
-.StoreInfo .view-middle {
-    height: 30px;
-    left: 531px;
-    position: absolute;
-    top: 35px;
-    width: 808px;
-}
-
-.StoreInfo .element {
-    height: 30px;
-    left: 715px;
-    position: absolute;
-    top: 0;
-    width: 93px;
-}
-
-.StoreInfo .text-notice {
-    color: #000000;
-    font-family: "Inter-Medium", Helvetica;
-    font-size: 25px;
-    font-weight: 500;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: -1px;
-    width: 93px;
-}
-
-.StoreInfo .element-2 {
-    height: 30px;
-    left: 459px;
-    position: absolute;
-    top: 0;
-    width: 152px;
-}
-
-.StoreInfo .text-storeinfo {
-    color: #000000;
-    font-family: "Inter-Medium", Helvetica;
-    font-size: 25px;
-    font-weight: 500;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: -1px;
-    width: 152px;
-}
-
-.StoreInfo .element-3 {
-    height: 30px;
-    left: 203px;
-    position: absolute;
-    top: 0;
-    width: 152px;
-}
-
-.StoreInfo .text-umbrella {
-    color: #000000;
-    font-family: "Inter-Medium", Helvetica;
-    font-size: 25px;
-    font-weight: 500;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: -1px;
-    white-space: nowrap;
-}
-
-.StoreInfo .element-4 {
-    height: 30px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 99px;
-}
-
-.StoreInfo .view-left {
-    height: 61px;
-    left: 75px;
-    position: absolute;
-    top: 19px;
-    width: 113px;
-}
-
-.StoreInfo .Logo {
-    color: #0075ff;
-    font-family: "Inter-Black", Helvetica;
-    font-size: 50px;
-    font-weight: 900;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: -1px;
 }

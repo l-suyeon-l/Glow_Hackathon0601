@@ -35,11 +35,11 @@
     border-color: #0075ff;   
     border-radius: 50px;   
     height: 66px;   
-    left: 351px;   
-    overflow: hidden;   
-    position: absolute;   
+    width: 460px;  
     top: 323px;   
-    width: 444px; 
+    left: 344px;   
+    overflow: hidden;   
+    position: absolute; 
 }
 
 .Umbenroll2 .text-gotoStoreInfo {   
@@ -61,14 +61,26 @@
     background-color: #0075ff;   
     border-radius: 50px;   
     height: 66px;   
-    left: 346px;   
-    overflow: hidden;   
-    position: absolute;   
-    top: 0;   
     width: 98px; 
+    top: 0;   
+    left: 363px;   
+    overflow: hidden;   
+    position: absolute;
+
+    
+    color: #ffffff;   
+    font-family: "Inter-SemiBold", Helvetica;   
+    font-size: 50px;   
+    font-weight: 600;
+    text-align: center;
 }
 
-.Umbenroll2 .text-go {   
+.button:hover {
+    opacity: 80%;
+    transition: all 0.2s ease-out;
+}
+
+/* .Umbenroll2 .text-go {   
     color: #ffffff;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 50px;   
@@ -82,7 +94,7 @@
     top: 11px;   
     white-space: nowrap;   
     width: 38px; 
-}
+} */
 
 .Umbenroll2 .text-warningMessage {   
     color: #000000;   
@@ -133,147 +145,4 @@
     position: absolute;   
     text-shadow: 0px 4px 4px #00000040;   
     top: 50px; 
-}
-
-.Umbenroll2 .navigator-login {   
-    height: 100px;   
-    left: 0;  
-    position: absolute;   
-    top: 0;   
-    width: 1920px; 
-}
-
-.Umbenroll2 .view-4 {   
-    height: 22px;   
-    left: 1583px;   
-    position: absolute;   
-    top: 39px;   
-    width: 244px; 
-}
-
-.Umbenroll2 .view-5 {   
-    height: 22px;   
-    left: 161px;   
-    position: absolute;   
-    top: 0;   
-    width: 83px; 
-}
-
-.Umbenroll2 .text-wrapper-5 {   
-    color: #373737;   
-    font-family: "Inter-Thin", Helvetica;   
-    font-size: 18px;   
-    font-weight: 100;   
-    left: 0;   
-    letter-spacing: 0;   
-    line-height: normal;   
-    position: absolute;  
-    top: -1px; 
-}
-
-.Umbenroll2 .view-6 {   
-    height: 22px;   
-    left: 55px;   
-    position: absolute;   
-    top: 0;   
-    width: 67px; 
-}
-
-.Umbenroll2 .view-7 {   
-    height: 30px;   
-    left: 530px;   
-    position: absolute;   
-    top: 35px;   
-    width: 808px; 
-}
-
-.Umbenroll2 .element {   
-    height: 30px;   
-    left: 715px;   
-    position: absolute;   
-    top: 0;   
-    width: 93px; 
-}
-
-.Umbenroll2 .text-wrapper-6 {   
-    color: #000000;   
-    font-family: "Inter-Medium", Helvetica;   
-    font-size: 25px;   
-    font-weight: 500;   
-    left: 0;   
-    letter-spacing: 0;   
-    line-height: normal;   
-    position: absolute;   
-    top: -1px;  
-    width: 93px; 
-}
-
-.Umbenroll2 .element-2 {   
-    height: 30px;   
-    left: 459px;   
-    position: absolute;   
-    top: 0;   
-    width: 152px; 
-}
-
-.Umbenroll2 .text-wrapper-7 {   
-    color: #000000;   
-    font-family: "Inter-Medium", Helvetica;   
-    font-size: 25px;   
-    font-weight: 500;   
-    left: 0;   
-    letter-spacing: 0;   
-    line-height: normal;   
-    position: absolute;   
-    top: -1px;   
-    width: 152px; 
-}
-
-.Umbenroll2 .element-3 {   
-    height: 30px;   
-    left: 203px;   
-    position: absolute;   
-    top: 0;   
-    width: 152px; 
-}
-
-.Umbenroll2 .text-wrapper-8 {   
-    color: #000000;   
-    font-family: "Inter-Medium", Helvetica;   
-    font-size: 25px;   
-    font-weight: 500;   
-    left: 0;   
-    letter-spacing: 0;   
-    line-height: normal;   
-    position: absolute;   
-    top: -1px;   
-    white-space: nowrap; 
-}
-
-.Umbenroll2 .element-4 {   
-    height: 30px;   
-    left: 0;   
-    position: absolute;   
-    top: 0;   
-    width: 99px; 
-}
-      
-.Umbenroll2 .view-8 {   
-    height: 61px;   
-    left: 74px;   
-    position: absolute;   
-    top: 19px;   
-    width: 113px; 
-}
-
-.Umbenroll2 .text-wrapper-9 {   
-    color: #0075ff;   
-    font-family: "Inter-Black", Helvetica;   
-    font-size: 50px;   
-    font-weight: 900;   
-    left: 0;   
-    letter-spacing: 0;   
-    line-height: normal;   
-    position: absolute;   
-    top: -1px; 
 }

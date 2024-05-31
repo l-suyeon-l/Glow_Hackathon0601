@@ -29,7 +29,8 @@ function Navigator() {
 
     return (
         <>
-        <nav className = 'navigator'>
+        {/* 미로그인 네비게이터 */}
+         <nav className = 'navigator'>
             <div className = 'nav-container'>
 
                 {/* 모바일버전에서 클릭하면 메뉴 보이도록 설정하는 것도 한다. */}
@@ -49,7 +50,7 @@ function Navigator() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/Umbenroll2' className='nav-links' onClick = {closeMobileMenu}>
+                        <Link to='/Umbenroll1' className='nav-links' onClick = {closeMobileMenu}>
                             우산 재고 등록
                         </Link>
                     </li>
@@ -74,12 +75,12 @@ function Navigator() {
                 {/* <ul> */}
                     <li className="nav-item2">
                         <Link to='/login' className='nav-links2' onClick = {closeMobileMenu}>
-                            로그인
+                            로그아웃
                         </Link>
                     </li>
                     <li className="nav-item2">
                         <Link to='/signUp' className='nav-links2' onClick = {closeMobileMenu}>
-                            회원가입
+                            마이페이지
                         </Link>
                     </li>
                 </ul>
