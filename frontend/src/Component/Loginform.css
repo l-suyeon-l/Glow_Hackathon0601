@@ -28,7 +28,7 @@
     height: 939px;
     left: 727px;
     position: relative;
-    top: 20px;
+    top: 0px;
     width: 466px;
 }
 
@@ -60,9 +60,14 @@
     overflow: hidden;
     padding: 10px;
     position: absolute;
-    top: 370px;
+    top: 350px;
     width: 350px;
     font-size: 30px;
+}
+
+.LoginP .input-id::placeholder {
+    font-size: 25px;
+    padding: 10px;
 }
 
 .LoginP .input-pw {
@@ -79,14 +84,20 @@
     padding: 10px;
     left: 52px;
     position: absolute;
-    top: 470px;
+    top: 450px;
     width: 350px;
     font-size: 30px;
+}
+
+.LoginP .input-pw::placeholder {
+    font-size: 25px;
+    padding: 10px;
 }
 
 .LoginP .click-button {
     background-color: #0075ff;
     border-radius: 50px;
+    border: none;
     height: 70px;
     left: 52px;
     position: absolute;
@@ -99,19 +110,26 @@
     font-weight: 500;
 }
 
+.LoginP .click-button:hover {
+    border: 2px solid #000000;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
 .LoginP .signUp {
+    width: 150px;
     height: 40px;
+    top: 720px;
     left: 160px;
     position: absolute;
-    top: 750px;
-    width: 150px;
 }
 
 .LoginP .text-signUp {
     color: #373737;
     font-family: "Inter-Thin", Helvetica;
-    font-size: 28px;
+    font-size: 23px;
     font-weight: 100;
+    width: 150px;
     height: 40px;
     left: 0;
     letter-spacing: 0;
@@ -120,9 +138,11 @@
     text-align: center;
     text-decoration: underline;
     top: -1px;
-    width: 150px;
 }
 
+.LoginP .text-signUp:hover {
+    cursor: pointer;
+}
 
 .LoginP .navigator {
     border-bottom-style: solid;
@@ -154,13 +174,12 @@
 .LoginP .text-sign {
     color: #373737;
     font-family: "Inter-Thin", Helvetica;
-    font-size: 18px;
+    font-size: 11px;
     font-weight: 100;
     left: 0;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: -1px;
 }
 
 .LoginP .Login {

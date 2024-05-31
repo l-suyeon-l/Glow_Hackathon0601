@@ -2,15 +2,15 @@ import React from "react";
 import { useState } from "react";
 import "./Umbenroll1.css";  
 
-const Umbenroll1 = ({ onUmbrellaCountChange }) => {   
+const Umbenroll1 = () => {   
     const [umbCnt, setUmbCnt] = useState("");
 
-    const handleRegister = () => {
-        // 등록 버튼 클릭 시 상위 컴포넌트로 우산 개수 전달
-        onUmbrellaCountChange(umbCnt);
-    }; 
+    const onClick = () => {
+        alert("등록되었습니다.");
+        setUmbCnt('');
+    }
 
-    return (     
+  return (     
         <div className="Umbenroll1">       
             <div className="div">         
                 <div className="background"> 
@@ -30,7 +30,8 @@ const Umbenroll1 = ({ onUmbrellaCountChange }) => {
                                 onChange={(e)=>{setUmbCnt(e.target.value)}}
                                 placeholder="현재 가게에서 보유하고 있는 우산 개수를 입력해주세요"
                             />       
-                            <button className="OK">등록</button>
+                            {/* 데이터는 umbCnt에 있음 */}
+                            <button className="OK" onClick={onClick}>등록</button>
                         </div>      
                                
                         <div className="storeInfo">         
