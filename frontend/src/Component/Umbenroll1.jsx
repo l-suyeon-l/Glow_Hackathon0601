@@ -2,10 +2,15 @@ import React from "react";
 import { useState } from "react";
 import "./Umbenroll1.css";  
 
-const Umbenroll1 = () => {   
+const Umbenroll1 = ({ onUmbrellaCountChange }) => {   
     const [umbCnt, setUmbCnt] = useState("");
 
-  return (     
+    const handleRegister = () => {
+        // 등록 버튼 클릭 시 상위 컴포넌트로 우산 개수 전달
+        onUmbrellaCountChange(umbCnt);
+    }; 
+
+    return (     
         <div className="Umbenroll1">       
             <div className="div">         
                 <div className="background"> 

@@ -69,7 +69,7 @@ const Findpage1 = () => {
           umbrellaCnt: 6,
         },
       ];
-      
+
       const infoWindows = stores.map(store => {
         const content = `
           <div class="info-window">
