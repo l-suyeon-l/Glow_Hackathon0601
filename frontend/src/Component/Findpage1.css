@@ -24,15 +24,17 @@
   
   .Findpage1 .map {
     /* background-color: #f2f1ec; */
-    height: 980px;
+    /* height: 980px; */
+    height: 100%;
     left: 1px;
     position: absolute;
-    top: 0px;
+    top: 1px;
     width: 1920px;
   }
   
   .Findpage1 .pop-up {
-    height: 876px;
+    /* height: 876px; */
+    height: 100%;
     left: 1389px;
     position: absolute;
     top: 53px;
@@ -46,7 +48,9 @@
     border-radius: 20px;
     height: 783px;
     left: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+      /* 세로 스크롤 활성화 */
     position: absolute;
     top: 93px;
     width: 466px;
@@ -318,6 +322,7 @@
     line-height: normal;
     position: absolute;
     top: 24px;
+    width: 360px;
   }
   
   .Findpage1 .navigator {
