@@ -25,27 +25,27 @@
 }
 
 .StoreInfo .middle {
+    width: 1920px;
     height: 799px;
+    top: 181px;
     left: 0;
     position: absolute;
-    top: 181px;
-    width: 1920px;
 }
 
 .StoreInfo .storeAddress {
-    height: 190px;
-    left: 612px;
-    position: absolute;
-    top: 24px;
     width: 696px;
+    height: 190px;
+    top: 24px;
+    left: 555px;
+    position: absolute;
 }
 
 .StoreInfo .storeName {
-    height: 190px;
-    left: 612px;
-    position: absolute;
-    top: 214px;
     width: 696px;
+    height: 190px;
+    top: 350px;
+    left: 555px;
+    position: absolute;
 }
 
 /* .StoreInfo .businessNumber {
@@ -74,18 +74,28 @@
     align-items: flex-start;
     background-color: #ffffff;
     border: 3px solid;
-    border-color: #000000;
+    border-color: #B2B2B2;
     border-radius: 15px;
     display: flex;
-    width: 520px;
+    width: 635px;
     height: 30px;
     top: 120px;
     left: 101px;
     padding: 10px;
-    opacity: 0.3;
     overflow: hidden;
     position: absolute;
     font-size: 24px;
+}
+
+.StoreInfo .input::placeholder {
+    color: #B2B2B2;
+    font-family: "Inter-Thin", Helvetica;
+    font-size: 20px;
+    font-weight: 100;
+    width: 520px;
+    height: 30px;
+    top: 120px;
+    left: 101px;
 }
 
 /* .StoreInfo .text-input {
@@ -101,11 +111,115 @@
     width: 257px;
 } */
 
-.StoreInfo .input::placeholder {
-    color: #000000;
+.StoreInfo .findButton {
+    align-items: flex-start;
+    background-color: #0075ff;
+    border: 3px solid #0075ff;
+    border-radius: 15px;
+    width: 28%;
+    top: 120px;
+    left: 565px;
+    padding: 10px;
+    position: absolute;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.StoreInfo .findButton:hover {
+    border: 3px solid #000000;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+.StoreInfo #var-postcode {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #b2b2b2;
+    border-radius: 15px;
+    /* opacity: 0.3; */
+    width: 428px;
+    height: 30px;
+    top: 120px;
+    left: 100px;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.StoreInfo #var-roadAddress {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #b2b2b2;
+    border-radius: 15px;
+    /* opacity: 0.3; */
+    width: 300px;
+    height: 30px;
+    top: 185px;
+    left: 100px;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.StoreInfo #var-jibunAddress {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #b2b2b2;
+    border-radius: 15px;
+    /* opacity: 0.3; */
+    width: 300px;
+    height: 30px;
+    top: 185px;
+    left: 435px;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.StoreInfo #var-detailAddress {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #b2b2b2;
+    border-radius: 15px;
+    /* opacity: 0.3; */
+    width: 300px;
+    height: 30px;
+    top: 250px;
+    left: 100px;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.StoreInfo #var-extraAddress {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #b2b2b2;
+    border-radius: 15px;
+    /* opacity: 0.3; */
+    width: 300px;
+    height: 30px;
+    top: 250px;
+    left: 435px;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.StoreInfo .add::placeholder {
+    color: #9f9f9f;
     font-family: "Inter-Thin", Helvetica;
     font-size: 20px;
     font-weight: 100;
+    width: 520px;
+    height: 30px;
+    top: 120px;
+    left: 101px;
 }
 
 .StoreInfo .OK {
@@ -118,7 +232,7 @@
     font-family: "Inter-Thin", Helvetica;
     font-size: 30px;
     font-weight: 500;
-    top: 500px;
+    top: 600px;
     left: 920px;
     overflow: hidden;
     position: relative;

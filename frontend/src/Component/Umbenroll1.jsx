@@ -5,6 +5,11 @@ import "./Umbenroll1.css";
 const Umbenroll1 = () => {   
     const [umbCnt, setUmbCnt] = useState("");
 
+    const onClick = () => {
+        alert("등록되었습니다.");
+        setUmbCnt('');
+    }
+
   return (     
         <div className="Umbenroll1">       
             <div className="div">         
@@ -25,7 +30,8 @@ const Umbenroll1 = () => {
                                 onChange={(e)=>{setUmbCnt(e.target.value)}}
                                 placeholder="현재 가게에서 보유하고 있는 우산 개수를 입력해주세요"
                             />       
-                            <button className="OK">등록</button>
+                            {/* 데이터는 umbCnt에 있음 */}
+                            <button className="OK" onClick={onClick}>등록</button>
                         </div>      
                                
                         <div className="storeInfo">         
