@@ -27,37 +27,6 @@ const Umbenroll2 = () => {
                         </div>                    
                     </div>          
                 </div>         
-
-                {/* 네비게이터는 미수정 */}
-                {/* <div className="navigator-login">           
-                    <div className="view-4">             
-                        <div className="view-5">               
-                            <div className="text-wrapper-5">마이페이지</div>             
-                        </div>             
-                        <div className="view-6">               
-                            <div className="text-wrapper-5">로그아웃</div>             
-                        </div>           
-                    </div>           
-                    <div className="view-7">             
-                        <div className="element">               
-                            <div className="text-wrapper-6">공지사항</div>             
-                        </div>            
-                        <div className="element-2">               
-                            <div className="text-wrapper-7">가게 정보 등록</div>             
-                        </div>             
-                        <div className="element-3">               
-                            <div className="text-wrapper-8">우산 재고 등록</div>            
-                        </div>             
-                        <div className="element-4">               
-                            <div className="text-wrapper-8">우산 찾기</div>             
-                        </div>           
-                    </div>           
-                    <div className="view-8">             
-                        <div className="text-wrapper-9">BP해</div>           
-                    </div>         
-                </div>      */}
-
-
             </div>     
         </div>   
     ); 

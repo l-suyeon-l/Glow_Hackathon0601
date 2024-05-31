@@ -40,38 +40,6 @@ const StoreInfo = () => {
                         <button className="OK">등록</button>
                     </div>
                 </div>
-
-
-
-                {/* 네비게이터는 미수정 */}
-                {/* <div className="navigator">
-                    <div className="view-right">
-                        <div className="MyPage">
-                            <div className="text-right">마이페이지</div>
-                        </div>
-                        <div className="Logout">
-                            <div className="text-right">로그아웃</div>
-                        </div>
-                    </div>
-                    <div className="view-middle">
-                        <div className="element">
-                            <div className="text-notice">공지사항</div>
-                        </div>
-                        <div className="element-2">
-                            <div className="text-storeinfo">가게 정보 등록</div>
-                        </div>
-                        <div className="element-3">
-                            <div className="text-umbrella">우산 재고 등록</div>
-                        </div>
-                        <div className="element-4">
-                            <div className="text-umbrella">우산 찾기</div>
-                        </div>
-                    </div>
-                    <div className="view-left">
-                        <div className="Logo">BP해</div>
-                    </div>
-                </div> */}
-
             </div>
         </div>
     );

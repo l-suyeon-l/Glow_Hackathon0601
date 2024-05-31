@@ -55,36 +55,6 @@ const Findpage2 = () => {
             </div>
           </div>
         </div>
-
-
-        {/* 네비게이터는 미수정 */}
-        {/* <div className="navigator">
-          <div className="view-3">
-            <div className="view-4">
-              <div className="text-wrapper-10">회원가입</div>
-            </div>
-            <div className="view-5">
-              <div className="text-wrapper-10">로그인</div>
-            </div>
-          </div>
-          <div className="view-6">
-            <div className="div-wrapper-2">
-              <div className="text-wrapper-11">공지사항</div>
-            </div>
-            <div className="div-wrapper-3">
-              <div className="text-wrapper-12">가게 정보 등록</div>
-            </div>
-            <div className="div-wrapper-4">
-              <div className="text-wrapper-13">우산 재고 등록</div>
-            </div>
-            <div className="div-wrapper-5">
-              <div className="text-wrapper-13">우산 찾기</div>
-            </div>
-          </div>
-          <div className="view-7">
-            <div className="text-wrapper-14">BP해</div>
-          </div>
-        </div> */}
       </div>
     </div>
   );
