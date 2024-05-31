@@ -1,3 +1,22 @@
+.info-window {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.info-window h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.info-window p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
 .Findpage1 {
     background-color: #ffffff;
     display: flex;

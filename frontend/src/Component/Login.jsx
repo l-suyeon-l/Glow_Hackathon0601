@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import {GoogleLogin} from "@react-oauth/google";
-// import { GoogleOAuthProvider } from "@react-oauth/google";
-// import { gapi } from 'gapi-script';
 
 import "./Login.css";
 // JavaScript SDK에 있는 naver 선언
@@ -11,10 +8,10 @@ const { Kakao } = window;
 const Login = () => {
   const [user, setUser] = useState(null);
 
-  useEffect(() => {
-    handleNaverLogin();
-    handleKakaoLogin();
-  }, []);
+  // useEffect(() => {
+  //   handleNaverLogin();
+  //   handleKakaoLogin();
+  // }, []);
 
   const handleNaverLogin = () => {
       const naverLogin = new naver.LoginWithNaverId({
@@ -90,16 +87,16 @@ const Login = () => {
           <div className="view">
             <div className="text-login">로그인</div>
 
-            {/* <img className="naver-login" alt="naver-login" src="login_naver.png" />
+            <img className="naver-login" alt="naver-login" src="login_naver.png" />
             <img className="google-login" alt="google-login" src="login_google.png"/>
-            <img className="kakao-login" alt="kakao-login" src="login_kakao.png" /> */}
+            <img className="kakao-login" alt="kakao-login" src="login_kakao.png" />
 
             {/* 네이버 로그인 */}
-            <div id="naverIdLogin" className="naver-login"></div>
+            {/* <div id="naverIdLogin" className="naver-login"></div> */}
             {/* <button id="google-login-btn" className="google-login">구글 로그인</button> */}
             
             {/* 카카오 로그인  */}
-            <div id="kakao-login-btn" className="kakao-login"></div>
+            {/* <div id="kakao-login-btn" className="kakao-login"></div> */}
 
             <div className="signUp">
                 <div className="text-signUp">회원가입</div>

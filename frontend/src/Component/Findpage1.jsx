@@ -3,6 +3,7 @@ import "./Findpage1.css";
 
 const Findpage1 = () => {
   const [location, setLocation] = useState({ lat: 35.8714, lng: 128.6014  }); // 기본 좌표 (대구)
+  // const [location, setLocation] = useState(null); 
   const [address, setAddress] = useState("");
   const [mapLoaded, setMapLoaded] = useState(false);
   const [searchQuery, setSearchQuery] = useState(""); // 검색어 상태 추가
@@ -68,8 +69,22 @@ const Findpage1 = () => {
           umbrellaCnt: 6,
         },
       ];
+      
+      const infoWindows = stores.map(store => {
+        const content = `
+          <div class="info-window">
+            <h3>${store.name}</h3>
+            <p>${store.address}</p>
+            <p>현재 보유 우산: ${store.umbrellaCnt}개</p>
+          </div>
+        `;
+        return new kakao.maps.InfoWindow({
+          content: content,
+        });
+      });
 
-      stores.forEach(store => {
+      // 마커를 클릭했을 때 정보를 표시하는 윈도우를 생성합니다.
+      stores.forEach((store, index) => {
         const markerImage = new kakao.maps.MarkerImage(
           "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png",
           new kakao.maps.Size(24, 35),
@@ -85,14 +100,18 @@ const Findpage1 = () => {
           image: markerImage, // 마커 이미지 
         });
 
-        // 마커를 클릭했을 때 정보를 표시하는 윈도우를 생성합니다.
-        const content = `<div>${store.name}</div><div>${store.address}</div><div>현재 보유 우산: ${store.umbrellaCnt}개</div>`;
-        const infowindow = new kakao.maps.InfoWindow({
-          content: content,
-        });
-
         kakao.maps.event.addListener(marker, 'click', function() {
-          infowindow.open(map, marker);
+          infoWindows.forEach((win, idx) => {
+            if (index === idx) {
+              if (win.getMap()) {
+                win.close();
+              } else {
+                win.open(map, marker);
+              }
+            } else {
+              win.close();
+            }
+          });
         });
       });
 
