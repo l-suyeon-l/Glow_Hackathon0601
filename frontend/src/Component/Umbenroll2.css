@@ -35,11 +35,11 @@
     border-color: #0075ff;   
     border-radius: 50px;   
     height: 66px;   
-    left: 351px;   
-    overflow: hidden;   
-    position: absolute;   
+    width: 460px;  
     top: 323px;   
-    width: 444px; 
+    left: 344px;   
+    overflow: hidden;   
+    position: absolute; 
 }
 
 .Umbenroll2 .text-gotoStoreInfo {   
@@ -61,14 +61,26 @@
     background-color: #0075ff;   
     border-radius: 50px;   
     height: 66px;   
-    left: 346px;   
-    overflow: hidden;   
-    position: absolute;   
-    top: 0;   
     width: 98px; 
+    top: 0;   
+    left: 363px;   
+    overflow: hidden;   
+    position: absolute;
+
+    
+    color: #ffffff;   
+    font-family: "Inter-SemiBold", Helvetica;   
+    font-size: 50px;   
+    font-weight: 600;
+    text-align: center;
 }
 
-.Umbenroll2 .text-go {   
+.button:hover {
+    opacity: 80%;
+    transition: all 0.2s ease-out;
+}
+
+/* .Umbenroll2 .text-go {   
     color: #ffffff;   
     font-family: "Inter-SemiBold", Helvetica;   
     font-size: 50px;   
@@ -82,7 +94,7 @@
     top: 11px;   
     white-space: nowrap;   
     width: 38px; 
-}
+} */
 
 .Umbenroll2 .text-warningMessage {   
     color: #000000;   

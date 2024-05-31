@@ -22,10 +22,8 @@ const Umbenroll2 = () => {
                         <div className="text-warningMessage">우산 재고를 등록하려면 먼저 가게 정보를 등록해야 합니다.</div> 
 
                         <div className="button" onClick={() => handleNavigation("/storeinfo")}>               
-                            <div className="text-gotoStoreInfo">가게 정보 등록하러 가기</div>               
-                            <div className="go">                 
-                                <div className="text-go">→</div>               
-                            </div>             
+                            <div className="text-gotoStoreInfo">가게 정보 등록하러 가기</div>
+                            <div className="go">→</div>             
                         </div>                    
                     </div>          
                 </div>         

@@ -19,6 +19,9 @@
     position: absolute;
     top: 0px;
     width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .StoreInfo .middle {
@@ -45,13 +48,13 @@
     width: 696px;
 }
 
-.StoreInfo .businessNumber {
+/* .StoreInfo .businessNumber {
     height: 190px;
     left: 612px;
     position: absolute;
     top: 404px;
     width: 696px;
-}
+} */
 
 .StoreInfo .textA {
     color: #000000;
@@ -59,7 +62,7 @@
     font-size: 35px;
     font-weight: 600;
     height: 44px;
-    left: 46px;
+    left: 102px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -70,22 +73,22 @@
 .StoreInfo .input {
     align-items: flex-start;
     background-color: #ffffff;
-    border: 2px solid;
+    border: 3px solid;
     border-color: #000000;
     border-radius: 15px;
     display: flex;
-    gap: 10px;
+    width: 520px;
     height: 30px;
-    left: 45px;
+    top: 120px;
+    left: 101px;
+    padding: 10px;
     opacity: 0.3;
     overflow: hidden;
-    padding: 10px;
     position: absolute;
-    top: 120px;
-    width: 520px;
+    font-size: 24px;
 }
 
-.StoreInfo .text-input {
+/* .StoreInfo .text-input {
     color: #000000;
     font-family: "Inter-Thin", Helvetica;
     font-size: 20px;
@@ -96,21 +99,37 @@
     margin-top: -2px;
     position: relative;
     width: 257px;
+} */
+
+.StoreInfo .input::placeholder {
+    color: #000000;
+    font-family: "Inter-Thin", Helvetica;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 .StoreInfo .OK {
     background-color: #0075ff;
     border: 0px none;
     border-radius: 15px;
-    height: 50px;
-    left: 600px;
+    height: 60px;
+    width: 120px;
+    color: #ffffff;
+    font-family: "Inter-Thin", Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    top: 500px;
+    left: 920px;
     overflow: hidden;
-    position: absolute;
-    top: 120px;
-    width: 100px;
+    position: relative;
 }
 
-.StoreInfo .text-OK {
+.StoreInfo .OK:hover {
+    border: 3px solid #000000;
+    transition: all 0.2s ease-out;
+}
+
+/* .StoreInfo .text-OK {
     color: #ffffff;
     font-family: "Inter-Thin", Helvetica;
     font-size: 24px;
@@ -123,7 +142,7 @@
     text-align: center;
     top: 9px;
     width: 98px;
-}
+} */
 
 .StoreInfo .background .upper {
     background-color: #0075ff;

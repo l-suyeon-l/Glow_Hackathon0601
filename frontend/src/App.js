@@ -19,8 +19,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/findpage1" element={<Findpage1 />} />
+          <Route path="/findpage2" element={<Findpage2 />} />
           <Route path="/login" element={<Login />} />
           <Route path="/storeinfo" element={<StoreInfo />} />
+          <Route path="/umbenroll1" element={<Umbenroll1 />} />
           <Route path="/umbenroll2" element={<Umbenroll2 />} />
         </Routes>
       </div>
