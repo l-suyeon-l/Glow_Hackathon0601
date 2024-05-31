@@ -9,6 +9,7 @@ import Umbenroll1 from './Component/Umbenroll1';
 import Umbenroll2 from './Component/Umbenroll2';
 import Login from './Component/Login';
 import Loginform from './Component/Loginform';
+import SignUp from './Component/SignUp';
 
 import './App.css';
 
@@ -22,9 +23,11 @@ function App() {
           <Route path="/findpage1" element={<Findpage1 />} />
           <Route path="/findpage2" element={<Findpage2 />} />
           <Route path="/login" element={<Loginform />} />
+          <Route path="/signup" element={<SignUp />} /> 
           <Route path="/storeinfo" element={<StoreInfo />} />
           <Route path="/umbenroll1" element={<Umbenroll1 />} />
           <Route path="/umbenroll2" element={<Umbenroll2 />} />
+
         </Routes>
       </div>
     </Router>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Loginform.css";
 
 const Login = () => {
@@ -47,9 +48,9 @@ const Login = () => {
             <button className="click-button" onClick={handleLogin}>로그인</button>
             {/* {loginStatus === "success" && <div>Success</div>}
             {loginStatus === "fail" && <div>Fail</div>} */}
-            <div className="signUp">
+            <Link to="/signup" className="signUp"> {/* Link to the signup page */}
               <div className="text-signUp">회원가입</div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
