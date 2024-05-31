@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./Findpage1.css";
 
 const Findpage1 = () => {
-  const [location, setLocation] = useState({ lat: 37.5665, lng: 126.9780 }); // 기본 좌표 (서울)
+  const [location, setLocation] = useState({ lat: 35.8714, lng: 128.6014  }); // 기본 좌표 (대구)
   const [address, setAddress] = useState("");
+  const [mapLoaded, setMapLoaded] = useState(false);
+  const [searchQuery, setSearchQuery] = useState(""); // 검색어 상태 추가
 
   useEffect(() => {
     // 사용자 위치 정보 얻기
@@ -15,6 +17,7 @@ const Findpage1 = () => {
             lng: position.coords.longitude,
           });
           // Kakao Maps API 사용하여 주소 정보 가져오기
+          const { kakao } = window;
           const geocoder = new kakao.maps.services.Geocoder();
           const coord = new kakao.maps.LatLng(position.coords.latitude, position.coords.longitude);
           geocoder.coord2Address(coord.getLng(), coord.getLat(), (result, status) => {
@@ -28,29 +31,88 @@ const Findpage1 = () => {
         },
         {
           enableHighAccuracy: true,
-          timeout: 5000,
+          timeout: 1000,
           maximumAge: 0,
         }
       );
     }
-    // 카카오 맵 API를 사용하여 지도를 생성합니다.
-    const { kakao } = window;
-    const mapContainer = document.getElementById("map"); // 지도를 표시할 div
-    const mapOption = {
-      center: new kakao.maps.LatLng(location.lat, location.lng), // 사용자 위치를 중심으로 지도 설정
-      level: 2, // 지도의 확대 레벨
-    };
+    
+  }, []);
 
-    // 지도 생성
-    const map = new kakao.maps.Map(mapContainer, mapOption);
+  // 지도가 존재하는지 확인하고, 페이지 요소들이 모두 렌더링된 이후 지도를 생성
+  useEffect(() => {
+    if (mapLoaded) {
+      const { kakao } = window;
 
-    // 사용자 위치에 마커 추가
-    const markerPosition = new kakao.maps.LatLng(location.lat, location.lng);
-    const marker = new kakao.maps.Marker({
-      position: markerPosition,
-    });
-    marker.setMap(map);
-  }, [location]); // 위치가 업데이트될 때마다 지도를 다시 생성
+      // 카카오 맵 API를 사용하여 지도를 생성합니다.
+      const mapContainer = document.getElementById("map");
+      const mapOption = {
+        center: new kakao.maps.LatLng(location.lat, location.lng),
+        level: 3,
+      };
+
+      const map = new kakao.maps.Map(mapContainer, mapOption);
+
+      const stores = [
+        {
+          name: "낭만놀이",
+          address: "대구 북구 대학로23길 18-9 1층",
+          latlng: new kakao.maps.LatLng(35.894922, 128.611447),
+          umbrellaCnt: 0,
+        },
+        // 다른 가게 정보도 추가할 수 있습니다.
+        {
+          name: "어썸브루커피",
+          address: "대구 북구 대학로23길 9",
+          latlng: new kakao.maps.LatLng(35.8945465587138, 128.610787481871),
+          umbrellaCnt: 6,
+        },
+      ];
+
+      stores.forEach(store => {
+        const markerImage = new kakao.maps.MarkerImage(
+          "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png",
+          new kakao.maps.Size(24, 35),
+          {
+            offset: new kakao.maps.Point(27, 69),
+          }
+        );
+
+        const marker = new kakao.maps.Marker({
+          map: map, // 마커를 표시할 지도
+          position: store.latlng, // 마커를 표시할 위치
+          title: store.name, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
+          image: markerImage, // 마커 이미지 
+        });
+
+        // 마커를 클릭했을 때 정보를 표시하는 윈도우를 생성합니다.
+        const content = `<div>${store.name}</div><div>${store.address}</div><div>현재 보유 우산: ${store.umbrellaCnt}개</div>`;
+        const infowindow = new kakao.maps.InfoWindow({
+          content: content,
+        });
+
+        kakao.maps.event.addListener(marker, 'click', function() {
+          infowindow.open(map, marker);
+        });
+      });
+
+      const markerPosition = new kakao.maps.LatLng(location.lat, location.lng);
+      const marker = new kakao.maps.Marker({
+        position: markerPosition,
+      });
+      marker.setMap(map);
+    }
+  }, [location, mapLoaded]);
+
+  useEffect(() => {
+    if (document.getElementById("map")) {
+      setMapLoaded(true);
+    }
+  }, []);
+
+  const handleSearchChange = (event) => {
+    setSearchQuery(event.target.value);
+  };
 
 
   return (
@@ -67,7 +129,14 @@ const Findpage1 = () => {
           <div className="search">
             <img className="image-3" alt="돋보기" src="imtc_search.png" />
             <img className="image-4" alt="검색선" src="line-search.png" />
-            <div className="text-search">상호명 및 주소를 검색해주세요</div>
+            {/* <div className="text-search">상호명 및 주소를 검색해주세요</div> */}
+            <input
+              type="text"
+              className="text-search"
+              placeholder="상호명 및 주소를 검색해주세요"
+              value={searchQuery}
+              onChange={handleSearchChange}
+            />
           </div>
 
           {/* 팝업창 : 가게목록 */}
