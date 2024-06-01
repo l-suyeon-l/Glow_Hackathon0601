@@ -5,6 +5,7 @@ const SignUp = () => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [businessnumber,setBusinessNumber] = useState("");
+    const [businessman,setBusinessMan] = useState("");
 
     const handleSignUp = async () => {
         try {
@@ -47,6 +48,16 @@ const SignUp = () => {
                     placeholder="사업자 번호"
                     value={businessnumber}
                     onChange={(e) => setBusinessNumber(e.target.value)}
+                />
+            </div>
+            {/* businessman */}
+            <div className="input-Name">  
+                <input
+                    className="input-name"
+                    type="businessnumber"
+                    placeholder="사업자 이름"
+                    value={businessman}
+                    onChange={(e) => setBusinessMan(e.target.value)}
                 />
             </div>
             

@@ -42,7 +42,7 @@
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 170px;
+    top: 120px;
     width: 288px;
 }
 
@@ -54,13 +54,13 @@
     border-radius: 15px;
     display: flex;
     gap: 10px;
-    height: 60px;
+    height: 50px;
     left: 52px;
     opacity: 0.3;
     overflow: hidden;
     padding: 10px;
     position: absolute;
-    top: 330px;
+    top: 290px;
     width: 350px;
     font-size: 30px;
 }
@@ -78,20 +78,20 @@
     border-radius: 15px;
     display: flex;
     gap: 10px;
-    height: 60px;
+    height: 50px;
     opacity: 0.3;
     overflow: hidden;
     padding: 10px;
     left: 52px;
     position: absolute;
-    top: 430px;
+    top: 380px;
     width: 350px;
     font-size: 30px;
 }
 
 
 .SignUp .input-pw::placeholder {
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px;
 }
 
@@ -103,19 +103,43 @@
     border-radius: 15px;
     display: flex;
     gap: 10px;
-    height: 60px;
+    height: 50px;
     opacity: 0.3;
     overflow: hidden;
     padding: 10px;
     left: 52px;
     position: absolute;
-    top: 530px;
+    top: 470px;
     width: 350px;
     font-size: 30px;
 }
 
 .SignUp .input-bn::placeholder {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.SignUp .input-name {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    opacity: 0.3;
+    overflow: hidden;
+    padding: 10px;
+    left: 52px;
+    position: absolute;
+    top: 560px;
+    width: 350px;
     font-size: 30px;
+}
+
+.SignUp .input-name::placeholder {
+    font-size: 25px;
     padding: 10px;
 }
 
@@ -126,12 +150,12 @@
     height: 70px;
     left: 52px;
     position: absolute;
-    top: 700px;
+    top: 680px;
     width: 375px;
 
     color: #ffffff;
     font-family: "Inter-Thin", Helvetica;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 
