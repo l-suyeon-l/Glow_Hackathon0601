@@ -53,3 +53,18 @@
 ## API 문서
 > [Notion API Document](https://skillful-alley-549.notion.site/API-1d5f86f02d4f42cb8aa94c7cff712d75?pvs=4)
 
+
+## 네이밍 규칙
+> 폴더
+- PascalCase
+- 복수형
+
+> 파일 & 컴포넌트
+- PascalCase
+- 단수형
+
+> 변수
+- camelCase
+
+> 함수
+- camelCase
