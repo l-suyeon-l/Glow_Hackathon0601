@@ -91,7 +91,7 @@
 
 
 .SignUp .input-pw::placeholder {
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .SignUp .input-bn::placeholder {
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px;
 }
 

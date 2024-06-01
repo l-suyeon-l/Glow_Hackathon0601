@@ -301,38 +301,6 @@ const Findpage1 = () => {
         </div>
 
 
-
-
-        {/* 헤더(네비게이터)는 미수정 */}
-        {/* <div className="navigator">
-          <div className="view">
-            <div className="singUp">
-              <div className="text-signUpNLogin">회원가입</div>
-            </div>
-            <div className="logIn">
-              <div className="text-signUpNLogin">로그인</div>
-            </div>
-          </div>
-          <div className="naviList">
-            <div className="findUmb">
-              <div className="text-list">우산 찾기</div>
-            </div>
-            <div className="umbEnroll">
-              <div className="text-list">우산 재고 등록</div>
-            </div>
-            <div className="storeInfo">
-              <div className="text-list">가게 정보 등록</div>
-            </div>
-            <div className="notice">
-              <div className="text-list">공지사항</div>
-            </div>
-          </div>
-          <div className="Logo">
-            <div className="text-logo">BP해</div>
-          </div>
-        </div> */}
-
-
       </div>
     </div>
   );
