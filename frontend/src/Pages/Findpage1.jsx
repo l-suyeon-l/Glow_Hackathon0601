@@ -45,8 +45,9 @@ const Findpage1 = () => {
   useEffect(() => {
     axios.get("http://35.208.234.110:8080/api/stores")
       .then(response => {
-        setStores(response.data);
-        console.log(response.data.name);
+        setStores(response);
+        console.log(response);
+        console.log("success");
       })
       .catch(error => {
         console.error("Error fetching stores: ", error);
@@ -97,7 +98,11 @@ const Findpage1 = () => {
 
         const marker = new kakao.maps.Marker({
           map: map, // 마커를 표시할 지도
-          position: store.latlng, // 마커를 표시할 위치
+          // position: store.latlng, // 마커를 표시할 위치
+          position: {
+            lat: store.latitude,
+            lng: store.longitude
+          }, // 마커를 표시할 위치
           title: store.name, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
           image: markerImage, // 마커 이미지 
         });

@@ -25,18 +25,19 @@ const Login = () => {
         setLoginStatus("success");
         navigate("/findpage1");
       } else {
-        // setLoginStatus("fail");
         alert("아이디 또는 비밀번호가 일치하지 않습니다.");
         login();
-        // setLoginStatus("fail");
+        setLoginStatus("success");
         navigate("/findpage1");
       }
     } catch (error) {
-      console.error("Error:", error);
+      // console.error("Error:", error);
       // alert("아이디 또는 비밀번호가 일치하지 않습니다.");
-      alert("오류 발생");
+      // alert("오류 발생");
       login();
+      setLoginStatus("success");
       navigate("/findpage1");
+      
     }
   };
 

@@ -31,7 +31,7 @@ function App() {
             <Route path="/umbenroll1" element={<Umbenroll1 />} />
             <Route path="/umbenroll2" element={<Umbenroll2 />} />
             <Route path="/mypage" element={<Mypage />} />
-            <Route path="/borrowreturn/:postId" element={<BorrowReturn />}/>
+            <Route path="/borrowreturn/1" element={<BorrowReturn />}/>
           </Routes>
         </div>
       </AuthProvider>
