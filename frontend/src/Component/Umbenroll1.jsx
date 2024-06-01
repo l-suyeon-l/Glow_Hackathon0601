@@ -1,13 +1,23 @@
-import React from "react"; 
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "./AuthContext";
 import "./Umbenroll1.css";  
 
 const Umbenroll1 = () => {   
+    const { isLoggedIn, logout } = useAuth();
+    const navigate = useNavigate();
     const [umbCnt, setUmbCnt] = useState("");
 
     const [name, setName] = useState("김원빈");
     const [storeName, setStoreName] = useState("벨로");
     const [address, setAddress] = useState("대구 북구 대학로23길 114 1층");
+
+    useEffect(() => {
+    if (!isLoggedIn) {
+      alert("로그인되지 않았습니다. 로그인 페이지로 이동합니다.");
+      navigate("/login");
+    }
+    }, [isLoggedIn, navigate]);
 
     const onClick = () => {
         alert("등록되었습니다.");

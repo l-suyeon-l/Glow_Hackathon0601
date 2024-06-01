@@ -1,20 +1,28 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useAuth } from "./AuthContext";
 import "./Loginform.css";
 
 const Login = () => {
+  const { login } = useAuth();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [loginStatus, setLoginStatus] = useState(null);
+  const navigate = useNavigate();
 
   const handleLogin = async () => {
     try {
       // 여기서 서버로의 요청을 보내고 로그인 여부를 판단합니다.
       if (username === "admin" && password === "admin") {
+        login();
         setLoginStatus("success");
+        navigate("/findpage1");
       } else {
-        setLoginStatus("fail");
+        // setLoginStatus("fail");
         alert("아이디 또는 비밀번호가 일치하지 않습니다.");
+        login();
+        setLoginStatus("success");
+        navigate("/findpage1");
       }
     } catch (error) {
       console.error("Error:", error);

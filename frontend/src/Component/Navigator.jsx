@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useAuth } from "./AuthContext";
 
 import './Navigator.css';
 
 function Navigator() {
+    const { isLoggedIn, logout } = useAuth();
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
@@ -73,16 +75,33 @@ function Navigator() {
 
                 <ul className={click ? 'nav-menu active' : 'nav-menu2'}>
                 {/* <ul> */}
-                    <li className="nav-item2">
-                        <Link to='/login' className='nav-links2' onClick = {closeMobileMenu}>
+                    {isLoggedIn ? (
+                    <>
+                        <li className="nav-item2">
+                        <Link to='/login' className='nav-links2' onClick={() => { closeMobileMenu(); logout(); }}>
                             로그아웃
                         </Link>
-                    </li>
-                    <li className="nav-item2">
-                        <Link to='/mypage' className='nav-links2' onClick = {closeMobileMenu}>
+                        </li>
+                        <li className="nav-item2">
+                        <Link to='/mypage' className='nav-links2' onClick={closeMobileMenu}>
                             마이페이지
                         </Link>
-                    </li>
+                        </li>
+                    </>
+                    ) : (
+                    <>
+                        <li className="nav-item2">
+                        <Link to='/login' className='nav-links2' onClick={closeMobileMenu}>
+                            로그인
+                        </Link>
+                        </li>
+                        <li className="nav-item2">
+                        <Link to='/signup' className='nav-links2' onClick={closeMobileMenu}>
+                            회원가입
+                        </Link>
+                        </li>
+                    </>
+                    )}
                 </ul>
             </div>
         </nav>
@@ -91,65 +110,3 @@ function Navigator() {
 }
 
 export default Navigator;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from "react";
-// import { NavLink } from "react-router-dom";
-// import './Navigator.css';
-
-// const Navigator = () => {
-//     return (
-//     <div className="NavigatorP">
-//       <div className="overlap-group-wrapper">
-//         <div className="overlap-group">
-          
-//           {/* navigator */}
-//           <div className="navigator">
-//             {/* 회원가입 / 로그인 */}
-//             <div className="view-right">
-//               <div className="SignUp">
-//                 <div className="text-sign">회원가입</div>
-//               </div>
-//               <div className="Login">
-//                 <div className="text-sign">로그인</div>
-//               </div>
-//             </div>
-//             {/* 우산 찾기 / 우산 재고 등록 / 가게 정보 등록 / 공지사항 */}
-//             <div className="view-middle">
-//               <div className="element">
-//                 <div className="text-notice">공지사항</div>
-//               </div>
-//               <div className="element-2">
-//                 <div className="text-storeinfo">가게 정보 등록</div>
-//               </div>
-//               <div className="element-3">
-//                 <div className="text-umbrella">우산 재고 등록</div>
-//               </div>
-//               <div className="element-4">
-//                 <div className="text-umbrella">우산 찾기</div>
-//               </div>
-//             </div>
-//             {/* 로고 */}
-//             <div className="view-left">
-//               <div className="Logo">BP해</div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//     );
-// };
-
-// export default Navigator

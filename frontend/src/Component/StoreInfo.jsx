@@ -1,18 +1,28 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "./AuthContext";
+
 import "./StoreInfo.css";
 
 const StoreInfo = () => {
+    const { isLoggedIn, logout } = useAuth();
+    const navigate = useNavigate();
     // 가게 주소와 상호명은 입력을 안한 상태이기에 공백으로 남겨둔다
     // const [address, setAddress] = useState("");
     const [name, setName] = useState("");
-
     const [postcode, setPostcode] = useState('');
     const [roadAddress, setRoadAddress] = useState('');
     const [jibunAddress, setJibunAddress] = useState('');
     const [extraAddress, setExtraAddress] = useState('');
     const [detailAddress, setDetailAddress] = useState('');
     const [guide, setGuide] = useState('');
+
+    useEffect(() => {
+    if (!isLoggedIn) {
+      alert("로그인되지 않았습니다. 로그인 페이지로 이동합니다.");
+      navigate("/login");
+    }
+    }, [isLoggedIn, navigate]);
 
     const openDaumPostcode = () => {
         new window.daum.Postcode({
