@@ -1,9 +1,19 @@
-import React from "react"; 
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "./AuthContext";
 import "./Umbenroll1.css";  
 
 const Umbenroll1 = () => {   
+    const { isLoggedIn, logout } = useAuth();
+    const navigate = useNavigate();
     const [umbCnt, setUmbCnt] = useState("");
+
+    useEffect(() => {
+    if (!isLoggedIn) {
+      alert("로그인되지 않았습니다. 로그인 페이지로 이동합니다.");
+      navigate("/login");
+    }
+    }, [isLoggedIn, navigate]);
 
     const onClick = () => {
         alert("등록되었습니다.");
