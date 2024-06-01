@@ -5,6 +5,10 @@ import "./Umbenroll1.css";
 const Umbenroll1 = () => {   
     const [umbCnt, setUmbCnt] = useState("");
 
+    const [name, setName] = useState("김원빈");
+    const [storeName, setStoreName] = useState("벨로");
+    const [address, setAddress] = useState("대구 북구 대학로23길 114 1층");
+
     const onClick = () => {
         alert("등록되었습니다.");
         setUmbCnt('');
@@ -37,16 +41,16 @@ const Umbenroll1 = () => {
                         <div className="storeInfo">         
                             <div className="storeInfoTitle">                 
                                 <div className="text-storeInfo">님의 가게 정보</div>                 
-                                <div className="text-user">김원빈</div>               
+                                <div className="text-user">{name}</div>               
                             </div>                 
                             <div className="storeInfoContent">     
                                 <div className="storeName">                   
                                     <div className="text-title">상호명:</div>                   
-                                    <div className="text-storeName">벨로</div>                 
+                                    <div className="text-storeName">{storeName}</div>                 
                                 </div>                           
                                 <div className="storeAddress">                   
                                     <div className="text-title">주소:</div>                   
-                                    <div className="text-storeAddress">대구 북구 대학로23길 114 1층</div>                 
+                                    <div className="text-storeAddress">{address}</div>                 
                                 </div>                
                             </div>                 
                         </div>           

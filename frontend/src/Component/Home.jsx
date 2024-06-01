@@ -1,18 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
     const navigate = useNavigate();
+    const [slide, setSlide] = useState(false);
 
     const handleNavigation = (path) => {
+      setSlide(true);
+      setTimeout(() => {
         navigate(path);
+      }, 1000);        
     };
 
   return (
     <div className="HomeP">
       <div className="overlap-group-wrapper">
-        <div className="background">
+        <div className={`background ${slide ? "slide-up" : ""}`}>
 
           {/* content */}
           <div className="sliding">

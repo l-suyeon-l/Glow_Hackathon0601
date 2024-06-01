@@ -13,7 +13,7 @@ import Mypage from './Component/Mypage';
 
 import './App.css';
 
-function App() {
+function App() {  
   return (
     <Router>
       <Navigator />

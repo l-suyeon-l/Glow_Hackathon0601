@@ -672,7 +672,7 @@ const Findpage1 = () => {
 
             <div className="store16">
               
-              <img className="storeProfile" alt="범어4동 행정복지센터" src="#" />
+              <img className="storeProfile" alt="범어4동 행정복지센터" src="./profile/행정복지센터.jpg" />
 
               <div className="phoneNumber">
                 <div className="text-phoneNumber">053-666-2000</div>
