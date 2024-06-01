@@ -95,7 +95,12 @@
     padding: 10px;   
     position: absolute;   
     top: 117px;   
-    width: 260px; 
+    width: 260px;
+    font-size: 20px;
+}
+
+.Mypage .input-name::placeholder {
+    font-size: 20px;
 }
 
 .Mypage .text-businessNum {   
@@ -127,7 +132,12 @@
     padding: 10px;   
     position: absolute;   
     top: 262px;   
-    width: 646px; 
+    width: 646px;
+    font-size: 20px;
+}
+
+.Mypage .input-busNum::placeholder {
+    font-size: 20px;
 }
 
 .Mypage .text-storeAddress {   
@@ -180,6 +190,11 @@
     position: absolute;   
     top: 420px;   
     width: 380px; 
+    font-size: 20px;
+}
+
+.Mypage #var-postcode::placeholder {
+    font-size: 20px;
 }
 
 .Mypage #var-roadAddress {
@@ -198,7 +213,11 @@
     position: absolute;   
     top: 480px;   
     width: 300px; 
+    font-size: 20px;
+}
 
+.Mypage #var-roadAddress::placeholder {
+    font-size: 20px;
 }
 
 .Mypage #var-jibunAddress {
@@ -217,7 +236,11 @@
     position: absolute;   
     top: 480px;   
     width: 300px; 
+    font-size: 20px;
+}
 
+.Mypage #var-jibunAddress::placeholder {
+    font-size: 20px;
 }
 
 .Mypage #var-detailAddress {
@@ -236,7 +259,11 @@
     position: absolute;   
     top: 540px;   
     width: 300px; 
+    font-size: 20px;
+}
 
+.Mypage #var-detailAddress::placeholder {
+    font-size: 20px;
 }
 
 .Mypage #var-extraAddress {
@@ -255,6 +282,11 @@
     position: absolute;   
     top: 540px;   
     width: 300px; 
+    font-size: 20px;
+}
+
+.Mypage #var-extraAddress::placeholder {
+    font-size: 20px;
 }
 
 .Mypage .text-storeName {   
@@ -287,6 +319,11 @@
     position: absolute;   
     top: 706px;   
     width: 646px; 
+    font-size: 20px;
+}
+
+.Mypage .input-storeName::placeholder {
+    font-size: 20px;
 }
 
 .Mypage .text-content {   
@@ -322,7 +359,7 @@
     font-size: 30px;
     font-weight: 500;
     top: 113px;
-    left: 860px;
+    left: 875px;
     overflow: hidden;
     position: relative;
 }
