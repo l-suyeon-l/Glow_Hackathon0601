@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+// import axios from "axios";
 import "./Findpage1.css";
 
 const Findpage1 = () => {
@@ -6,6 +7,7 @@ const Findpage1 = () => {
   // const [location, setLocation] = useState(null); 
   const [address, setAddress] = useState("");
   const [mapLoaded, setMapLoaded] = useState(false);
+  // const [stores, setStores] = useState([]); // 가게 정보 상태 추가
   const [searchQuery, setSearchQuery] = useState(""); // 검색어 상태 추가
 
   useEffect(() => {
@@ -39,6 +41,17 @@ const Findpage1 = () => {
     }
     
   }, []);
+
+  // 서버에서 가게 정보 가져오기
+  // useEffect(() => {
+  //   axios.get("/api/stores")
+  //     .then(response => {
+  //       setStores(response.data);
+  //     })
+  //     .catch(error => {
+  //       console.error("Error fetching stores: ", error);
+  //     });
+  // }, []);
 
   // 지도가 존재하는지 확인하고, 페이지 요소들이 모두 렌더링된 이후 지도를 생성
   useEffect(() => {
