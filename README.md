@@ -36,7 +36,8 @@
 ## 기술 스택
 ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-
+![mongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Google Cloud Platform](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 
 ## 디자인 기획서
 > [Designed by Figma](https://www.figma.com/design/eYHM6o4QswDGD5Pkf7DR3u/%ED%95%B4%EC%BB%A4%ED%86%A4!!?node-id=0-1&t=WYBEJWPakLZpDMXM-0)
