@@ -8,9 +8,9 @@ const Umbenroll1 = () => {
     const navigate = useNavigate();
     const [umbCnt, setUmbCnt] = useState("");
 
-    const [name, setName] = useState("김원빈");
-    const [storeName, setStoreName] = useState("벨로");
-    const [address, setAddress] = useState("대구 북구 대학로23길 114 1층");
+    const [name, setName] = useState("김사업");
+    const [storeName, setStoreName] = useState("오크커피");
+    const [address, setAddress] = useState("대구 수성구 달구벌대로 496길 11 sj빌딩 1층");
 
     useEffect(() => {
     if (!isLoggedIn) {
