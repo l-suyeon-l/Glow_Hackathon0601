@@ -8,6 +8,7 @@ import Findpage2 from './Pages/Findpage2';
 import StoreInfo from './Pages/StoreInfo';
 import Umbenroll1 from './Pages/Umbenroll1';
 import Umbenroll2 from './Pages/Umbenroll2';
+import BorrowReturn from './Pages/BorrowReturn';
 import Loginform from './Pages/Loginform';
 import SignUp from './Pages/SignUp';
 import Mypage from './Pages/Mypage';
@@ -30,6 +31,7 @@ function App() {
             <Route path="/umbenroll1" element={<Umbenroll1 />} />
             <Route path="/umbenroll2" element={<Umbenroll2 />} />
             <Route path="/mypage" element={<Mypage />} />
+            <Route path="/borrowreturn/:postId" element={<BorrowReturn />}/>
           </Routes>
         </div>
       </AuthProvider>

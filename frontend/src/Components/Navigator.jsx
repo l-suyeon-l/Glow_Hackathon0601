@@ -67,8 +67,8 @@ function Navigator() {
                         </Link>
                     </li> */}
                     <li className='nav-item'>
-                        <Link to='#' className='nav-links' onClick = {closeMobileMenu}>
-                            공지사항
+                        <Link to='/BorrowReturn' className='nav-links' onClick = {closeMobileMenu}>
+                            대여 / 반납하기
                         </Link>
                     </li>
                 </ul>
