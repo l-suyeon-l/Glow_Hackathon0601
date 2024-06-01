@@ -34,7 +34,7 @@ const Findpage1 = () => {
         },
         {
           enableHighAccuracy: true,
-          timeout: 1000,
+          timeout: 4000,
           maximumAge: 0,
         }
       );

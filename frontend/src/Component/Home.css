@@ -10,7 +10,7 @@
 .HomeP .overlap-group-wrapper {
     background-color: #ffffff;
     height: 1080px;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 1920px;
 }
 

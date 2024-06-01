@@ -8,7 +8,8 @@ const Mypage = () => {
         const [postcode, setPostcode] = useState("41544");
         const [roadAddress, setRoadAddress] = useState("대구 북구 대학로23길 114");
         const [jibunAddress, setJibunAddress] = useState("산격동 1308-22");
-        const [extraAddress, setExtraAddress] = useState("1층");
+        const [extraAddress, setExtraAddress] = useState("(산격동)");
+        const [detailAddress, setDetailAddress] = useState("1층");
         const [guide, setGuide] = useState('');
     
         const [storeName, setStoreName] = useState("벨로");
@@ -86,7 +87,7 @@ const Mypage = () => {
                                     <input type="text" id="var-roadAddress" className="add" placeholder="도로명주소" value={roadAddress} readOnly />
                                     <input type="text" id="var-jibunAddress" className="add" placeholder="지번주소" value={jibunAddress} readOnly />
                                     <span id="guide" style={{color: '#999', display: guide ? 'block' : 'none'}}>{guide}</span>
-                                    <input type="text" id="var-detailAddress" className="add" placeholder="상세주소" />
+                                    <input type="text" id="var-detailAddress" className="add" placeholder="상세주소" value={detailAddress} onChange={(e)=>setDetailAddress(e.target.value)}/>
                                     <input type="text" id="var-extraAddress" className="add" placeholder="참고항목" value={extraAddress} readOnly />
                                 </div>
 
