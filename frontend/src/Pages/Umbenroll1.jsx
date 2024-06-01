@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../Components/AuthContext";
+import axios from 'axios';
 import "../Styles/Umbenroll1.css";  
 
 const Umbenroll1 = () => {   
@@ -20,10 +21,23 @@ const Umbenroll1 = () => {
     }
     }, [isLoggedIn, navigate]);
 
-    const onClick = () => {
-        alert("등록되었습니다.");
-        setUmbCnt('');
-    }
+    const onClick = async () => {
+        try {
+            // 우산 개수 데이터를 서버에 전송
+            const response = await axios.post("https://35.208.234.110:8080/api/umbrella", {
+                umbCnt: umbCnt
+            });
+            console.log("우산 개수 전송 성공:", response.data);
+
+            // 전송 성공 시 알림창 띄우고 입력값 초기화
+            alert("등록되었습니다.");
+            setUmbCnt('');
+        } catch (error) {
+            console.error("우산 개수 전송 실패:", error);
+            // 실패 시 알림창 띄우기 등의 처리 추가 가능
+        }
+    };
+
 
   return (     
         <div className="Umbenroll1">       

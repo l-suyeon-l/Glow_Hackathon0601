@@ -28,12 +28,14 @@ const Login = () => {
         // setLoginStatus("fail");
         alert("아이디 또는 비밀번호가 일치하지 않습니다.");
         login();
-        setLoginStatus("success");
+        // setLoginStatus("fail");
         navigate("/findpage1");
       }
     } catch (error) {
       console.error("Error:", error);
       alert("아이디 또는 비밀번호가 일치하지 않습니다.");
+      login();
+      navigate("/findpage1");
     }
   };
 
