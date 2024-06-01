@@ -116,8 +116,6 @@
 
 .SignUp .input-bn::placeholder {
     font-size: 25px;
-<<<<<<< HEAD
-=======
     padding: 10px;
 }
 
@@ -142,7 +140,6 @@
 
 .SignUp .input-name::placeholder {
     font-size: 25px;
->>>>>>> 744fd2a9c9ddf3a7292fb2b5fe2c23d21fa62a28
     padding: 10px;
 }
 
