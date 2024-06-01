@@ -1,0 +1,137 @@
+.BorrowReturn {   
+    background-color: #ffffff;   
+    display: flex;   
+    flex-direction: row;   
+    justify-content: center;   
+    width: 100%; 
+}
+
+.BorrowReturn .div {   
+    background-color: #ffffff;   
+    height: 1080px;   
+    position: relative;   
+    width: 1920px; 
+}
+
+.BorrowReturn .background {   
+    background-color: #ffffff;   
+    height: 980px;   
+    left: 0;   
+    position: absolute;   
+    top: 0px;   
+    width: 1920px; 
+}
+
+.BorrowReturn .middleSide {   
+    height: 488px;   
+    left: 387px;   
+    position: absolute;   
+    top: 284px;   
+    width: 1145px; 
+}
+
+.BorrowReturn .button {   
+    border: 3px solid;   
+    border-color: #0075ff;   
+    border-radius: 50px;   
+    height: 66px;   
+    width: 460px;  
+    top: 323px;   
+    left: 344px;   
+    overflow: hidden;   
+    position: absolute; 
+}
+
+.BorrowReturn .text-borrow {
+    font-family: "Inter-Black", Helvetica;
+    font-size: 50px;
+    font-weight: 600;
+    color: #000000;
+
+    position: absolute;
+    left: 320px;
+}
+
+.BorrowReturn .borButton {
+    background-color: #0075ff;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    width: 392px;
+    height: 91px;
+    left: 400px;
+    top: 100px;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.BorrowReturn .borButton:hover {
+    background-color: #ffffff;
+    border: 5px solid #0075ff;
+    color: #0075ff;
+}
+
+.BorrowReturn .text-return {
+    font-family: "Inter-Black", Helvetica;
+    font-size: 50px;
+    font-weight: 600;
+    color: #000000;
+
+    position: absolute;
+    left: 320px;
+    top: 300px;
+}
+
+.BorrowReturn .retButton {
+    background-color: #0075ff;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    width: 392px;
+    height: 91px;
+    left: 400px;
+    top: 400px;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.BorrowReturn .retButton:hover {
+    background-color: #ffffff;
+    border: 5px solid #0075ff;
+    color: #0075ff;
+}
+
+.BorrowReturn .upperSide {   
+    background-color: #0075ff;   
+    height: 181px;   
+    left: 0;   
+    position: absolute;   
+    top: 0;   
+    width: 1920px; 
+}
+
+.BorrowReturn .text-page {   
+    color: #ffffff;   
+    font-family: "Inter-Black", Helvetica;   
+    font-size: 50px;   
+    font-weight: 900;   
+    height: 61px;   
+    left: 812px;   
+    letter-spacing: 0;   
+    line-height: normal;   
+    position: absolute;   
+    text-shadow: 0px 4px 4px #00000040;   
+    top: 50px; 
+}
