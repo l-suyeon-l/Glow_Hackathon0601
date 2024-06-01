@@ -24,7 +24,7 @@ const Umbenroll1 = () => {
     const onClick = async () => {
         try {
             // 우산 개수 데이터를 서버에 전송
-            const response = await axios.post("https://35.208.234.110:8080/api/umbrella", {
+            const response = await axios.post("http://35.208.234.110:8080/api/umbrellas/1", {
                 umbCnt: umbCnt
             });
             console.log("우산 개수 전송 성공:", response.data);

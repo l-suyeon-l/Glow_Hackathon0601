@@ -15,7 +15,7 @@ const Login = () => {
   const handleLogin = async () => {
     try {
       // 서버로 로그인 요청을 보냅니다.
-      const response = await axios.post("https://35.208.234.110:8080/api/login", {
+      const response = await axios.post("http://35.208.234.110:8080/api/auth/login", {
         username,
         password,
       });
@@ -33,7 +33,8 @@ const Login = () => {
       }
     } catch (error) {
       console.error("Error:", error);
-      alert("아이디 또는 비밀번호가 일치하지 않습니다.");
+      // alert("아이디 또는 비밀번호가 일치하지 않습니다.");
+      alert("오류 발생");
       login();
       navigate("/findpage1");
     }

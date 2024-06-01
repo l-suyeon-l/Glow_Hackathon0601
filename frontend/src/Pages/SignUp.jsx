@@ -21,7 +21,7 @@ const SignUp = () => {
             };
 
             // 서버로 회원가입 정보를 전송합니다.
-            const response = await axios.post("https://35.208.234.110:8080/api/signup", userData);
+            const response = await axios.post("http://35.208.234.110:8080/api/auth/signup", userData);
             console.log("Sign up successful:", response.data);
 
             // 회원가입 성공 시 Findpage1으로 이동합니다.

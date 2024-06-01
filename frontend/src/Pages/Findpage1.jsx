@@ -43,9 +43,10 @@ const Findpage1 = () => {
 
   // 서버에서 가게 정보 가져오기
   useEffect(() => {
-    axios.get("https://35.208.234.110:8080/api/stores")
+    axios.get("http://35.208.234.110:8080/api/stores")
       .then(response => {
         setStores(response.data);
+        console.log(response.data.name);
       })
       .catch(error => {
         console.error("Error fetching stores: ", error);

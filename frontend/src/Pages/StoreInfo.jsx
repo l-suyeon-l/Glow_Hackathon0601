@@ -73,7 +73,7 @@ const StoreInfo = () => {
         };
 
         // Axios를 사용하여 POST 요청을 보냅니다.
-        axios.post('https://35.208.234.110:8080/api/', data)
+        axios.post('http://35.208.234.110:8080/api/stores', data)
         .then(response => {
             // 서버로부터의 응답을 처리합니다.
             console.log('Response:', response.data);
