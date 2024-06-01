@@ -11,6 +11,7 @@ const StoreInfo = () => {
     const [roadAddress, setRoadAddress] = useState('');
     const [jibunAddress, setJibunAddress] = useState('');
     const [extraAddress, setExtraAddress] = useState('');
+    const [detailAddress, setDetailAddress] = useState('');
     const [guide, setGuide] = useState('');
 
     const openDaumPostcode = () => {
@@ -54,6 +55,7 @@ const StoreInfo = () => {
         setPostcode('');
         setRoadAddress('');
         setJibunAddress('');
+        setDetailAddress('');
         setExtraAddress('');    // 등록 이후 입력칸 초기화
     }
 
@@ -82,7 +84,7 @@ const StoreInfo = () => {
                                 <input type="text" id="var-roadAddress" className="add" placeholder="도로명주소" value={roadAddress} readOnly />
                                 <input type="text" id="var-jibunAddress" className="add" placeholder="지번주소" value={jibunAddress} readOnly />
                                 <span id="guide" style={{color: '#999', display: guide ? 'block' : 'none'}}>{guide}</span>
-                                <input type="text" id="var-detailAddress" className="add" placeholder="상세주소" />
+                                <input type="text" id="var-detailAddress" className="add" placeholder="상세주소" value={detailAddress} onChange={(e)=>{setDetailAddress(e.target.value)}}/>
                                 <input type="text" id="var-extraAddress" className="add" placeholder="참고항목" value={extraAddress} readOnly />
                             </div>
                         </div>
