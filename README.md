@@ -18,13 +18,13 @@
 
 
 ### 팀원
-> [구은성](https://github.com/Koo-EunSung)
+> [BE] [구은성](https://github.com/Koo-EunSung)
 
-> [김민수](https://github.com/K-Minsu)
+> [BE] [김민수](https://github.com/K-Minsu)
 
-> [김희수](https://github.com/huisuu)
+> [FE] [김희수](https://github.com/huisuu)
 
-> [최수연](https://github.com/l-suyeon-l)
+> [FE] [최수연](https://github.com/l-suyeon-l)
 
 ## 프로젝트 소개
 버려진 우산을 활용한 우산 공유 플랫폼
@@ -41,5 +41,5 @@
 
 
 ## API 문서
-
+[API 문서](https://skillful-alley-549.notion.site/API-1d5f86f02d4f42cb8aa94c7cff712d75?pvs=4)
 
