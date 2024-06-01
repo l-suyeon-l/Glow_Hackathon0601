@@ -6,7 +6,7 @@
 - 팀 소개
 - 프로젝트 소개
 - 기술 스택
-- 디자인
+- 디자인 기획서
 - 기능 소개
 - API 문서
 
@@ -34,12 +34,12 @@
 ![spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 
 
-## 디자인
-
+## 디자인 기획서
+> [Designed by Figma](https://www.figma.com/design/eYHM6o4QswDGD5Pkf7DR3u/%ED%95%B4%EC%BB%A4%ED%86%A4!!?node-id=0-1&t=WYBEJWPakLZpDMXM-0)
 
 ## 기능 소개
 
 
 ## API 문서
-[API 문서](https://skillful-alley-549.notion.site/API-1d5f86f02d4f42cb8aa94c7cff712d75?pvs=4)
+[Notion API Document](https://skillful-alley-549.notion.site/API-1d5f86f02d4f42cb8aa94c7cff712d75?pvs=4)
 
