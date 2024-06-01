@@ -38,8 +38,18 @@
 > [Designed by Figma](https://www.figma.com/design/eYHM6o4QswDGD5Pkf7DR3u/%ED%95%B4%EC%BB%A4%ED%86%A4!!?node-id=0-1&t=WYBEJWPakLZpDMXM-0)
 
 ## 기능 소개
+> 회원가입
+- 사업자 번호를 통한 로그인
+> 정보 제공
+- 카카오맵 API를 통해 사용자 위치 기반 가게 정보 제공
+- 가게에서 현재 대여 가능한 우산 개수 제공
+> 가게 정보
+- 상호명, 가게 주소 등록 및 수정
+> 우산 정보
+- 우산 개수 등록 및 수정
+> 우산 대여/반납
 
 
 ## API 문서
-[Notion API Document](https://skillful-alley-549.notion.site/API-1d5f86f02d4f42cb8aa94c7cff712d75?pvs=4)
+> [Notion API Document](https://skillful-alley-549.notion.site/API-1d5f86f02d4f42cb8aa94c7cff712d75?pvs=4)
 
