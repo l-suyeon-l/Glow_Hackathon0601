@@ -82,18 +82,7 @@ const Findpage1 = () => {
       //   },
       // ];
 
-      const infoWindows = stores.map(store => {
-        const content = `
-          <div class="info-window">
-            <h3>${store.name}</h3>
-            <p>${store.address}</p>
-            <p>현재 보유 우산: ${store.umbrellaCnt}개</p>
-          </div>
-        `;
-        return new kakao.maps.InfoWindow({
-          content: content,
-        });
-      });
+      
 
       // 마커를 클릭했을 때 정보를 표시하는 윈도우를 생성합니다.
       stores.forEach((store, index) => {
@@ -110,6 +99,19 @@ const Findpage1 = () => {
           position: store.latlng, // 마커를 표시할 위치
           title: store.name, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
           image: markerImage, // 마커 이미지 
+        });
+
+        const infoWindows = stores.map(store => {
+        const content = `
+          <div class="info-window">
+            <h3>${store.name}</h3>
+            <p>${store.address}</p>
+            <p>현재 보유 우산: ${store.umbrellaCnt}개</p>
+          </div>
+        `;
+        return new kakao.maps.InfoWindow({
+          content: content,
+          });
         });
 
         kakao.maps.event.addListener(marker, 'click', function() {
