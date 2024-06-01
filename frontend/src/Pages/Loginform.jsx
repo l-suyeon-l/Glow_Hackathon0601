@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../Components/AuthContext";
+import axios from "axios";
+
 import "../Styles/Loginform.css";
 
 const Login = () => {
@@ -12,8 +14,13 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      // 여기서 서버로의 요청을 보내고 로그인 여부를 판단합니다.
-      if (username === "admin" && password === "admin") {
+      // 서버로 로그인 요청을 보냅니다.
+      const response = await axios.post("https://35.208.234.110:8080/api/login", {
+        username,
+        password,
+      });
+      // if (username === "admin" && password === "admin") {
+      if (response.data.success) {
         login();
         setLoginStatus("success");
         navigate("/findpage1");

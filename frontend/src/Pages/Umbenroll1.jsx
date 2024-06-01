@@ -14,8 +14,9 @@ const Umbenroll1 = () => {
 
     useEffect(() => {
     if (!isLoggedIn) {
-      alert("로그인되지 않았습니다. 로그인 페이지로 이동합니다.");
-      navigate("/login");
+        navigate("/login");
+        alert("로그인되지 않았습니다. 로그인 페이지로 이동합니다.");
+      
     }
     }, [isLoggedIn, navigate]);
 
