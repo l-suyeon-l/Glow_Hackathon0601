@@ -61,10 +61,7 @@ const SignUp = () => {
                 />
             </div>
             
-            <button className="click-button" onClick={handleSignUp}>회원가입</button>
-            {/* {loginStatus === "success" && <div>Success</div>}
-            {loginStatus === "fail" && <div>Fail</div>} */}
-            
+            <button className="click-button" onClick={handleSignUp}>회원가입</button>           
           </div>
         </div>
       </div>

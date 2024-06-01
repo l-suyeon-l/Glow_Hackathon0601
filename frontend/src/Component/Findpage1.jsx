@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Findpage1.css";
 
 const Findpage1 = () => {
-  const [location, setLocation] = useState({ lat: 35.8714, lng: 128.6014  }); // 기본 좌표 (대구)
+  const [location, setLocation] = useState({  lat: 35.8576603857473, lng: 128.62515087238  }); // 기본 좌표 (대구)
   // const [location, setLocation] = useState(null); 
   const [address, setAddress] = useState("");
   const [mapLoaded, setMapLoaded] = useState(false);

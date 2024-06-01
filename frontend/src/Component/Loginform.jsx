@@ -14,9 +14,11 @@ const Login = () => {
         setLoginStatus("success");
       } else {
         setLoginStatus("fail");
+        alert("아이디 또는 비밀번호가 일치하지 않습니다.");
       }
     } catch (error) {
       console.error("Error:", error);
+      alert("아이디 또는 비밀번호가 일치하지 않습니다.");
     }
   };
 
@@ -46,8 +48,16 @@ const Login = () => {
             </div>
             
             <button className="click-button" onClick={handleLogin}>로그인</button>
-            {/* {loginStatus === "success" && <div>Success</div>}
-            {loginStatus === "fail" && <div>Fail</div>} */}
+            {loginStatus === "success" && (
+              <div>
+                <Link to="/findpage1" className="findpage1"></Link>
+              </div>
+            )}
+            {loginStatus === "fail" && (
+              <div>
+                <Link to="/login" className="login"></Link> 
+              </div>
+            )}
             <Link to="/signup" className="signUp"> {/* Link to the signup page */}
               <div className="text-signUp">회원가입</div>
             </Link>
