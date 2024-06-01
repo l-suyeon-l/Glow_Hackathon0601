@@ -79,7 +79,7 @@ function Navigator() {
                         </Link>
                     </li>
                     <li className="nav-item2">
-                        <Link to='/signUp' className='nav-links2' onClick = {closeMobileMenu}>
+                        <Link to='/mypage' className='nav-links2' onClick = {closeMobileMenu}>
                             마이페이지
                         </Link>
                     </li>

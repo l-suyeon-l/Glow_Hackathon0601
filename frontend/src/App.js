@@ -7,9 +7,9 @@ import Findpage2 from './Component/Findpage2';
 import StoreInfo from './Component/StoreInfo';
 import Umbenroll1 from './Component/Umbenroll1';
 import Umbenroll2 from './Component/Umbenroll2';
-import Login from './Component/Login';
 import Loginform from './Component/Loginform';
 import SignUp from './Component/SignUp';
+import Mypage from './Component/Mypage';
 
 import './App.css';
 
@@ -27,7 +27,7 @@ function App() {
           <Route path="/storeinfo" element={<StoreInfo />} />
           <Route path="/umbenroll1" element={<Umbenroll1 />} />
           <Route path="/umbenroll2" element={<Umbenroll2 />} />
-
+          <Route path="/mypage" element={<Mypage />}/>
         </Routes>
       </div>
     </Router>

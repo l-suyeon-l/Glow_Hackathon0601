@@ -1,0 +1,333 @@
+.Mypage {   
+    background-color: #ffffff;   
+    display: flex;   
+    flex-direction: row;   
+    justify-content: center;   
+    width: 100%; 
+}
+
+/* .Mypage .overlap-wrapper {   
+    background-color: #ffffff;   
+    height: 1080px;   
+    overflow: hidden;   
+    width: 1920px; 
+} */
+
+.Mypage .overlap {   
+    width: 1920px;
+    height: 1080px;    
+    top: 0px;     
+    left: 0px;   
+    position: relative; 
+}
+
+.Mypage .background {   
+    background-color: #ffffff;   
+    height: 1030px;   
+    left: 1px;   
+    overflow: hidden;   
+    position: absolute;   
+    top: 50px;   
+    width: 1920px; 
+}
+
+.Mypage .text-mypage {   
+    color: #0075ff;   
+    font-family: "Inter-Bold", Helvetica;   
+    font-size: 55px;   
+    font-weight: 700;   
+    left: 559px;   
+    letter-spacing: 0;   
+    line-height: normal;   
+    position: absolute;   
+    text-align: center;   
+    top: 102px;   
+    width: 288px; 
+}
+
+.Mypage .content {   
+    height: 880px;   
+    left: 514px;   
+    position: absolute;   
+    top: 181px;   
+    width: 891px; 
+}
+
+.Mypage .content-background {   
+    background-color: #f6f6f6;   
+    border: 3px solid;   
+    border-color: #0075ff;   
+    border-radius: 50px;   
+    height: 869px;   
+    left: 0;   
+    overflow: hidden;   
+    position: absolute;   
+    top: 11px;   
+    width: 891px; 
+}
+
+.Mypage .text-name {   
+    color: #000000;   
+    font-family: "Inter-Bold", Helvetica;   
+    font-size: 30px;   
+    font-weight: 700;   
+    left: 93px;   
+    letter-spacing: 0;   
+    line-height: normal;   
+    position: absolute;   
+    top: 65px;   
+    white-space: nowrap;   
+    width: 62px; 
+}
+
+.Mypage .input-name {   
+    align-items: flex-start;   
+    background-color: #ffffff;   
+    border: 2px solid;   
+    border-color: #000000;   
+    border-radius: 15px;   
+    display: flex;   
+    gap: 10px;   
+    height: 30px;   
+    left: 93px;   
+    opacity: 0.3;   
+    overflow: hidden;   
+    padding: 10px;   
+    position: absolute;   
+    top: 117px;   
+    width: 260px; 
+}
+
+.Mypage .text-businessNum {   
+    color: #000000;   
+    font-family: "Inter-Bold", Helvetica;   
+    font-size: 30px;   
+    font-weight: 700;   
+    left: 93px;   
+    letter-spacing: 0;   
+    line-height: normal;   
+    position: absolute;   
+    top: 210px;   
+    white-space: nowrap;   
+    width: 152px; 
+}
+
+.Mypage .input-busNum {   
+    align-items: flex-start;   
+    background-color: #ffffff;   
+    border: 2px solid;   
+    border-color: #000000;  
+    border-radius: 15px;   
+    display: flex;   
+    gap: 10px;   
+    height: 30px;   
+    left: 93px;   
+    opacity: 0.3;   
+    overflow: hidden;   
+    padding: 10px;   
+    position: absolute;   
+    top: 262px;   
+    width: 646px; 
+}
+
+.Mypage .text-storeAddress {   
+    color: #000000;   
+    font-family: "Inter-Bold", Helvetica;   
+    font-size: 30px;   
+    font-weight: 700;   
+    left: 93px;   
+    letter-spacing: 0;   
+    line-height: normal;   
+    position: absolute;   
+    top: 368px;   
+    white-space: nowrap;  
+    width: 152px; 
+}
+
+.Mypage .findButton {
+    align-items: flex-start;
+    background-color: #0075ff;
+    border: 3px solid #0075ff;
+    border-radius: 15px;
+    width: 28%;
+    top: 420px;
+    left: 505px;
+    padding: 10px;
+    position: absolute;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.Mypage .findButton:hover {
+    border: 3px solid #000000;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+.Mypage #var-postcode {
+    align-items: flex-start;  
+    background-color: #ffffff;   
+    border: 2px solid;   
+    border-color: #000000;   
+    border-radius: 15px;   
+    display: flex;   
+    gap: 10px;   
+    height: 30px;   
+    left: 93px;   
+    opacity: 0.3;   
+    overflow: hidden;  
+    padding: 10px;   
+    position: absolute;   
+    top: 420px;   
+    width: 380px; 
+}
+
+.Mypage #var-roadAddress {
+    align-items: flex-start;   
+    background-color: #ffffff;   
+    border: 2px solid;   
+    border-color: #000000;   
+    border-radius: 15px;   
+    display: flex;   
+    gap: 10px;   
+    height: 30px;   
+    left: 93px;   
+    opacity: 0.3;   
+    overflow: hidden;   
+    padding: 10px;   
+    position: absolute;   
+    top: 480px;   
+    width: 300px; 
+
+}
+
+.Mypage #var-jibunAddress {
+    align-items: flex-start;   
+    background-color: #ffffff;   
+    border: 2px solid;  
+    border-color: #000000;   
+    border-radius: 15px;   
+    display: flex;   
+    gap: 10px;   
+    height: 30px;   
+    left: 433px;   
+    opacity: 0.3;   
+    overflow: hidden;   
+    padding: 10px;   
+    position: absolute;   
+    top: 480px;   
+    width: 300px; 
+
+}
+
+.Mypage #var-detailAddress {
+    align-items: flex-start;  
+    background-color: #ffffff;   
+    border: 2px solid;   
+    border-color: #000000;   
+    border-radius: 15px;   
+    display: flex;   
+    gap: 10px;   
+    height: 30px;   
+    left: 93px;   
+    opacity: 0.3;   
+    overflow: hidden;   
+    padding: 10px;   
+    position: absolute;   
+    top: 540px;   
+    width: 300px; 
+
+}
+
+.Mypage #var-extraAddress {
+    align-items: flex-start;   
+    background-color: #ffffff;   
+    border: 2px solid;   
+    border-color: #000000;  
+    border-radius: 15px;   
+    display: flex;   
+    gap: 10px;   
+    height: 30px;   
+    left: 433px;   
+    opacity: 0.3;   
+    overflow: hidden;   
+    padding: 10px;   
+    position: absolute;   
+    top: 540px;   
+    width: 300px; 
+}
+
+.Mypage .text-storeName {   
+    color: #000000;   
+    font-family: "Inter-Bold", Helvetica;   
+    font-size: 30px;   
+    font-weight: 700;   
+    left: 93px;   
+    letter-spacing: 0;   
+    line-height: normal;   
+    position: absolute;   
+    top: 654px;   
+    white-space: nowrap;   
+    width: 94px; 
+}
+
+.Mypage .input-storeName {   
+    align-items: flex-start;   
+    background-color: #ffffff;   
+    border: 2px solid;   
+    border-color: #000000;   
+    border-radius: 15px;   
+    display: flex;   
+    gap: 10px;   
+    height: 30px;   
+    left: 93px;   
+    opacity: 0.3;   
+    overflow: hidden;   
+    padding: 10px;   
+    position: absolute;   
+    top: 706px;   
+    width: 646px; 
+}
+
+.Mypage .text-content {   
+    align-self: stretch;   
+    color: #000000;   
+    flex: 1;   
+    font-family: "Inter-Thin", Helvetica;   
+    font-size: 25px;   
+    font-weight: 100;   
+    letter-spacing: 0;   
+    line-height: normal;   
+    margin-top: -2px;   
+    position: relative;   
+    white-space: nowrap; 
+}
+
+.Mypage .bookmark {   
+    height: 140px;   
+    left: 742px;   
+    position: absolute;   
+    top: 0;   
+    width: 62px; 
+}
+
+.Mypage .OK {
+    background-color: #0075ff;
+    border: 0px none;
+    border-radius: 15px;
+    height: 60px;
+    width: 120px;
+    color: #ffffff;
+    font-family: "Inter-Thin", Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    top: 113px;
+    left: 860px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Mypage .OK:hover {
+    border: 2px solid #000000;
+    transition: all 0.2s ease-out;
+}
