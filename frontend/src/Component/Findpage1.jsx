@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./Findpage1.css";
 
 const Findpage1 = () => {
-  const [location, setLocation] = useState({ lat: 35.8576603857473, lng: 128.62515087238 }); 
+  const [location, setLocation] = useState({  lat: 35.8576603857473, lng: 128.62515087238  }); // 기본 좌표 (대구)
+  // const [location, setLocation] = useState(null); 
   const [address, setAddress] = useState("");
   const [mapLoaded, setMapLoaded] = useState(false);
   const [searchQuery, setSearchQuery] = useState(""); // 검색어 상태 추가
@@ -31,7 +32,7 @@ const Findpage1 = () => {
         },
         {
           enableHighAccuracy: true,
-          timeout: 4000,
+          timeout: 1000,
           maximumAge: 0,
         }
       );
