@@ -3,71 +3,75 @@ import axios from "axios";
 import "../Styles/Mypage.css";
 
 const Mypage = () => {   
-        const [name, setName] = useState("김사업");
-        const [businessNumber, setBusinessNumber] = useState("11806235");
-    
-        const [postcode, setPostcode] = useState("42087");
-        const [roadAddress, setRoadAddress] = useState("대구 수성구 달구벌대로 496길 11 sj빌딩");
-        const [jibunAddress, setJibunAddress] = useState("범어동 201-14");
-        const [extraAddress, setExtraAddress] = useState("(범어동)");
-        const [detailAddress, setDetailAddress] = useState("1층");
-        const [guide, setGuide] = useState('');
-    
-        const [storeName, setStoreName] = useState("오크커피");
+    const [name, setName] = useState("김사업");
+    const [businessNumber, setBusinessNumber] = useState("11806235");
 
-        const openDaumPostcode = () => {
-            new window.daum.Postcode({
-            oncomplete: function (data) {
-                let roadAddr = data.roadAddress;
-                let extraRoadAddr = '';
-    
-                if (data.bname !== '' && /[동|로|가]$/g.test(data.bname)) {
-                extraRoadAddr += data.bname;
-                }
-                if (data.buildingName !== '' && data.apartment === 'Y') {
-                extraRoadAddr += (extraRoadAddr !== '' ? ', ' + data.buildingName : data.buildingName);
-                }
-                if (extraRoadAddr !== '') {
-                extraRoadAddr = ' (' + extraRoadAddr + ')';
-                }
-    
-                setPostcode(data.zonecode);
-                setRoadAddress(roadAddr);
-                setJibunAddress(data.jibunAddress);
-                setExtraAddress(extraRoadAddr);
-    
-                if (data.autoRoadAddress) {
-                let expRoadAddr = data.autoRoadAddress + extraRoadAddr;
-                setGuide(`(예상 도로명 주소 : ${expRoadAddr})`);
-                } else if (data.autoJibunAddress) {
-                let expJibunAddr = data.autoJibunAddress;
-                setGuide(`(예상 지번 주소 : ${expJibunAddr})`);
-                } else {
-                setGuide('');
-                }
+    const [postcode, setPostcode] = useState("42087");
+    const [roadAddress, setRoadAddress] = useState("대구 수성구 달구벌대로 496길 11 sj빌딩");
+    const [jibunAddress, setJibunAddress] = useState("범어동 201-14");
+    const [extraAddress, setExtraAddress] = useState("(범어동)");
+    const [detailAddress, setDetailAddress] = useState("1층");
+    const [guide, setGuide] = useState('');
+
+    const [storeName, setStoreName] = useState("오크커피");
+
+    const openDaumPostcode = () => {
+        new window.daum.Postcode({
+        oncomplete: function (data) {
+            let roadAddr = data.roadAddress;
+            let extraRoadAddr = '';
+
+            if (data.bname !== '' && /[동|로|가]$/g.test(data.bname)) {
+            extraRoadAddr += data.bname;
             }
-            }).open();
-        };
-        
-        const onClick = async () => {
-            try {
-            const response = await axios.post("https://example.com/api/mypage", {
-                name,
-                businessNumber,
-                postcode,
-                roadAddress,
-                jibunAddress,
-                extraAddress,
-                detailAddress,
-                storeName
-            });
-            console.log("Response:", response.data);
-                alert("수정되었습니다.");
-            } catch (error) {
-                console.error("Error:", error);
-                alert("서버에 데이터를 전송하는 중 오류가 발생했습니다.");
+            if (data.buildingName !== '' && data.apartment === 'Y') {
+            extraRoadAddr += (extraRoadAddr !== '' ? ', ' + data.buildingName : data.buildingName);
             }
-        };
+            if (extraRoadAddr !== '') {
+            extraRoadAddr = ' (' + extraRoadAddr + ')';
+            }
+
+            setPostcode(data.zonecode);
+            setRoadAddress(roadAddr);
+            setJibunAddress(data.jibunAddress);
+            setExtraAddress(extraRoadAddr);
+
+            if (data.autoRoadAddress) {
+            let expRoadAddr = data.autoRoadAddress + extraRoadAddr;
+            setGuide(`(예상 도로명 주소 : ${expRoadAddr})`);
+            } else if (data.autoJibunAddress) {
+            let expJibunAddr = data.autoJibunAddress;
+            setGuide(`(예상 지번 주소 : ${expJibunAddr})`);
+            } else {
+            setGuide('');
+            }
+        }
+        }).open();
+    };
+    
+    const onClick = async () => {
+        try {
+        const response = await axios.post("https://35.208.234.110:8080/api/mypage", {
+            name,
+            businessNumber,
+            postcode,
+            roadAddress,
+            jibunAddress,
+            extraAddress,
+            detailAddress,
+            storeName
+        });
+        console.log("Response:", response.data);
+            alert("수정되었습니다.");
+        } catch (error) {
+            console.error("Error:", error);
+            alert("서버에 데이터를 전송하는 중 오류가 발생했습니다.");
+        }
+    };
+
+    // const onClick () => {
+    //     alert("수정되었습니다.")
+    // }
 
     return (     
         <div className="Mypage">       
