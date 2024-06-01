@@ -7,6 +7,7 @@ import "../Styles/StoreInfo.css";
 const StoreInfo = () => {
     const { isLoggedIn, logout } = useAuth();
     const navigate = useNavigate();
+
     // 가게 주소와 상호명은 입력을 안한 상태이기에 공백으로 남겨둔다
     // const [address, setAddress] = useState("");
     const [name, setName] = useState("");
