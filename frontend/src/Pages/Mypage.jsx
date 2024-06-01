@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import "../Styles/Mypage.css";
 
 const Mypage = () => {   
-        const [name, setName] = useState("김원빈");
+        const [name, setName] = useState("김사업");
         const [businessNumber, setBusinessNumber] = useState("11806235");
     
-        const [postcode, setPostcode] = useState("41544");
-        const [roadAddress, setRoadAddress] = useState("대구 북구 대학로23길 114");
-        const [jibunAddress, setJibunAddress] = useState("산격동 1308-22");
-        const [extraAddress, setExtraAddress] = useState("(산격동)");
+        const [postcode, setPostcode] = useState("42087");
+        const [roadAddress, setRoadAddress] = useState("대구 수성구 달구벌대로 496길 11 sj빌딩");
+        const [jibunAddress, setJibunAddress] = useState("범어동 201-14");
+        const [extraAddress, setExtraAddress] = useState("(범어동)");
         const [detailAddress, setDetailAddress] = useState("1층");
         const [guide, setGuide] = useState('');
     
-        const [storeName, setStoreName] = useState("벨로");
+        const [storeName, setStoreName] = useState("오크커피");
 
         const openDaumPostcode = () => {
             new window.daum.Postcode({

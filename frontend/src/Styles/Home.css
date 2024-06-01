@@ -29,11 +29,6 @@
     position: absolute;
     top: 0px;
     width: 1920px;
-    transition: transform 0.4s ease-in-out;
-}
-
-.slide-up .sliding {
-    transform: translateY(-100%);
 }
 
 .HomeP .image {
