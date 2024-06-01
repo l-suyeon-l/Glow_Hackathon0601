@@ -84,15 +84,6 @@
     width: 383px;
   }
   
-  .Findpage1 .store1 {
-    height: 204px;
-    left: 41px;
-    overflow: hidden;
-    position: absolute;
-    top: 698px;
-    width: 383px;
-  }
-  
   .Findpage1 .umbrellaCntFrame {
     height: 24px;
     left: 152px;
@@ -118,6 +109,12 @@
     position: absolute;
     top: 0;
     width: 40px;
+    
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
   }
   
   .Findpage1 .text-umbrellaCnt {
@@ -187,7 +184,7 @@
     line-height: normal;
     position: absolute;
     top: -1px;
-    width: 149px;
+    width: 200px;
   }
   
   .Findpage1 .postalCode {
@@ -228,7 +225,7 @@
     line-height: normal;
     position: absolute;
     top: -1px;
-    width: 225px;
+    width: 320px;
   }
   
   .Findpage1 .storeName {
@@ -269,15 +266,6 @@
     width: 135px;
   }
   
-  .Findpage1 .store2 {
-    height: 204px;
-    left: 41px;
-    overflow: hidden;
-    position: absolute;
-    top: 480px;
-    width: 383px;
-  }
-  
   .Findpage1 .image-2 {
     height: 1px;
     left: 0;
@@ -286,12 +274,30 @@
     width: 383px;
   }
   
+  .Findpage1 .store1 {
+    width: 383px;
+    height: 204px;
+    top: 44px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store2 {
+    width: 383px;
+    height: 204px;
+    top: 262px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
   .Findpage1 .store3 {
     height: 204px;
     left: 41px;
     overflow: hidden;
     position: absolute;
-    top: 262px;
+    top: 480px;
     width: 383px;
   }
   
@@ -300,8 +306,152 @@
     left: 41px;
     overflow: hidden;
     position: absolute;
-    top: 44px;
+    top: 698px;
     width: 383px;
+  }
+  
+  .Findpage1 .store5 {
+    width: 383px;
+    height: 204px;
+    top: 916px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store6 {
+    width: 383px;
+    height: 204px;
+    top: 1134px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store7 {
+    width: 383px;
+    height: 204px;
+    top: 1352px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store8 {
+    width: 383px;
+    height: 204px;
+    top: 1570px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store9 {
+    width: 383px;
+    height: 204px;
+    top: 1788px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store10 {
+    width: 383px;
+    height: 204px;
+    top: 2006px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store11 {
+    width: 383px;
+    height: 204px;
+    top: 2224px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store12 {
+    width: 383px;
+    height: 204px;
+    top: 2442px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store13 {
+    width: 383px;
+    height: 204px;
+    top: 2660px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store14 {
+    width: 383px;
+    height: 204px;
+    top: 2878px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store15 {
+    width: 383px;
+    height: 204px;
+    top: 3096px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store16 {
+    width: 383px;
+    height: 204px;
+    top: 3314px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store17 {
+    width: 383px;
+    height: 204px;
+    top: 3532px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store18 {
+    width: 383px;
+    height: 204px;
+    top: 3750px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store19 {
+    width: 383px;
+    height: 204px;
+    top: 3968px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .Findpage1 .store20 {
+    width: 383px;
+    height: 204px;
+    top: 4186px;
+    left: 41px;
+    overflow: hidden;
+    position: absolute;
   }
   
   .Findpage1 .search {
