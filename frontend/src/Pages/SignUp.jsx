@@ -29,6 +29,7 @@ const SignUp = () => {
         } catch (error) {
             console.error("Error:", error);
         }
+        alert("환영합니다!");
     };
     
     return (
