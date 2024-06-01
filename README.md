@@ -11,11 +11,17 @@
 ## 팀 소개
 ### 팀명
 
-|Dream Maker
+> Dream Maker
 
 
 ### 팀원
+> [구은성](https://github.com/Koo-EunSung)
 
+> [김민수](https://github.com/K-Minsu)
+
+> [김희수](https://github.com/huisuu)
+
+> [최수연](https://github.com/l-suyeon-l)
 
 ## 프로젝트 소개
 버려진 우산을 활용한 우산 공유 플랫폼
