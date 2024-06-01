@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 import "../Styles/Mypage.css";
 
 const Mypage = () => {   
@@ -48,9 +49,25 @@ const Mypage = () => {
             }).open();
         };
         
-        const onClick = () => {
-            alert("수정되었습니다.");
-        }
+        const onClick = async () => {
+            try {
+            const response = await axios.post("https://example.com/api/mypage", {
+                name,
+                businessNumber,
+                postcode,
+                roadAddress,
+                jibunAddress,
+                extraAddress,
+                detailAddress,
+                storeName
+            });
+            console.log("Response:", response.data);
+                alert("수정되었습니다.");
+            } catch (error) {
+                console.error("Error:", error);
+                alert("서버에 데이터를 전송하는 중 오류가 발생했습니다.");
+            }
+        };
 
     return (     
         <div className="Mypage">       

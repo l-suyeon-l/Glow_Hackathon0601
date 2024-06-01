@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../Components/AuthContext";
+import axios from 'axios';
+
 
 import "../Styles/StoreInfo.css";
 
@@ -60,15 +62,30 @@ const StoreInfo = () => {
     };
     
     const onClick = () => {
-        alert("등록되었습니다.");
-        // setAddress('');
-        setName('');
-        setPostcode('');
-        setRoadAddress('');
-        setJibunAddress('');
-        setDetailAddress('');
-        setExtraAddress('');    // 등록 이후 입력칸 초기화
-    }
+        // 주소 정보를 서버로 전송하기 위해 데이터를 객체로 만듭니다.
+        const data = {
+            name: name,
+            postcode: postcode,
+            roadAddress: roadAddress,
+            jibunAddress: jibunAddress,
+            extraAddress: extraAddress,
+            detailAddress: detailAddress
+        };
+
+        // Axios를 사용하여 POST 요청을 보냅니다.
+        axios.post('https://35.208.234.110:8080/api/', data)
+        .then(response => {
+            // 서버로부터의 응답을 처리합니다.
+            console.log('Response:', response.data);
+            alert('주소 정보가 성공적으로 등록되었습니다.');
+        })
+        .catch(error => {
+            // 오류가 발생한 경우 처리합니다.
+            console.error('Error:', error);
+            alert('주소 정보 등록 중 오류가 발생했습니다.');
+        });
+    };
+
 
     return (
         <div className="StoreInfo">
