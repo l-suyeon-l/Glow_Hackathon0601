@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { AuthProvider } from './Component/AuthContext';
-import Navigator from './Component/Navigator';
-import Home from './Component/Home';
-import Findpage1 from './Component/Findpage1';
-import Findpage2 from './Component/Findpage2';
-import StoreInfo from './Component/StoreInfo';
-import Umbenroll1 from './Component/Umbenroll1';
-import Umbenroll2 from './Component/Umbenroll2';
-import Loginform from './Component/Loginform';
-import SignUp from './Component/SignUp';
-import Mypage from './Component/Mypage';
+import { AuthProvider } from './Components/AuthContext';
+import Navigator from './Components/Navigator';
+import Home from './Pages/Home';
+import Findpage1 from './Pages/Findpage1';
+import Findpage2 from './Pages/Findpage2';
+import StoreInfo from './Pages/StoreInfo';
+import Umbenroll1 from './Pages/Umbenroll1';
+import Umbenroll2 from './Pages/Umbenroll2';
+import Loginform from './Pages/Loginform';
+import SignUp from './Pages/SignUp';
+import Mypage from './Pages/Mypage';
 
 import './App.css';
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Findpage2.css";
+import "../Styles/Findpage2.css";
 
 const Findpage2 = () => {
   return (

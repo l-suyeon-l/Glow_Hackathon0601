@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "./AuthContext";
 
-import './Navigator.css';
+import '../Styles/Navigator.css';
 
 function Navigator() {
     const { isLoggedIn, logout } = useAuth();

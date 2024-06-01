@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Mypage.css";
+import "../Styles/Mypage.css";
 
 const Mypage = () => {   
         const [name, setName] = useState("김원빈");

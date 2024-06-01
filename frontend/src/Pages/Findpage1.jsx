@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 // import axios from "axios";
-import "./Findpage1.css";
+import "../Styles/Findpage1.css";
 
 const Findpage1 = () => {
   const [location, setLocation] = useState({  lat: 35.8576603857473, lng: 128.62515087238  }); // 기본 좌표 (대구)

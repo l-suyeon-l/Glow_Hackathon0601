@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "./AuthContext";
+import { useAuth } from "../Components/AuthContext";
 
-import "./StoreInfo.css";
+import "../Styles/StoreInfo.css";
 
 const StoreInfo = () => {
     const { isLoggedIn, logout } = useAuth();

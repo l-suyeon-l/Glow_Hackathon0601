@@ -1,6 +1,6 @@
 import React from "react"; 
 import { useNavigate } from "react-router-dom";
-import "./Umbenroll2.css";  
+import "../Styles/Umbenroll2.css";  
 
 const Umbenroll2 = () => {   
     const navigate = useNavigate();
