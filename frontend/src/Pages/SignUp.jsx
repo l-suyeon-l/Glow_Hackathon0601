@@ -1,16 +1,31 @@
 import React, { useState } from 'react';
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+
 import "../Styles/SignUp.css";
 
 const SignUp = () => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [businessnumber,setBusinessNumber] = useState("");
-    const [businessman,setBusinessMan] = useState("");
+    const [businessman, setBusinessMan] = useState("");
+    const navigate = useNavigate();
 
     const handleSignUp = async () => {
         try {
-            // Here you can perform your signup logic, such as sending a request to the server
-            console.log("Signing up...");
+            const userData = {
+                username: username,
+                password: password,
+                businessnumber: businessnumber,
+                businessman: businessman
+            };
+
+            // 서버로 회원가입 정보를 전송합니다.
+            const response = await axios.post("https://35.208.234.110:8080/api/signup", userData);
+            console.log("Sign up successful:", response.data);
+
+            // 회원가입 성공 시 Findpage1으로 이동합니다.
+            navigate("/findpage1");
         } catch (error) {
             console.error("Error:", error);
         }
