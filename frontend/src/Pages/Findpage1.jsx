@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-// import axios from "axios";
+import axios from "axios";
 import "../Styles/Findpage1.css";
 
 const Findpage1 = () => {
   const [location, setLocation] = useState({  lat: 35.8576603857473, lng: 128.62515087238  }); // 기본 좌표 (대구)
   const [address, setAddress] = useState("");
   const [mapLoaded, setMapLoaded] = useState(false);
-  // const [stores, setStores] = useState([]); // 가게 정보 상태 추가
+  const [stores, setStores] = useState([]); // 가게 정보 상태 추가
   const [searchQuery, setSearchQuery] = useState(""); // 검색어 상태 추가
 
   useEffect(() => {
@@ -42,15 +42,15 @@ const Findpage1 = () => {
   }, []);
 
   // 서버에서 가게 정보 가져오기
-  // useEffect(() => {
-  //   axios.get("/api/stores")
-  //     .then(response => {
-  //       setStores(response.data);
-  //     })
-  //     .catch(error => {
-  //       console.error("Error fetching stores: ", error);
-  //     });
-  // }, []);
+  useEffect(() => {
+    axios.get("https://35.208.234.110:8080/api/stores")
+      .then(response => {
+        setStores(response.data);
+      })
+      .catch(error => {
+        console.error("Error fetching stores: ", error);
+      });
+  }, []);
 
   // 지도가 존재하는지 확인하고, 페이지 요소들이 모두 렌더링된 이후 지도를 생성
   useEffect(() => {
@@ -66,21 +66,21 @@ const Findpage1 = () => {
 
       const map = new kakao.maps.Map(mapContainer, mapOption);
 
-      const stores = [
-        {
-          name: "낭만놀이",
-          address: "대구 북구 대학로23길 18-9 1층",
-          latlng: new kakao.maps.LatLng(35.894922, 128.611447),
-          umbrellaCnt: 0,
-        },
-        // 다른 가게 정보도 추가할 수 있습니다.
-        {
-          name: "어썸브루커피",
-          address: "대구 북구 대학로23길 9",
-          latlng: new kakao.maps.LatLng(35.8945465587138, 128.610787481871),
-          umbrellaCnt: 6,
-        },
-      ];
+      // const stores = [
+      //   {
+      //     name: "낭만놀이",
+      //     address: "대구 북구 대학로23길 18-9 1층",
+      //     latlng: new kakao.maps.LatLng(35.894922, 128.611447),
+      //     umbrellaCnt: 0,
+      //   },
+      //   // 다른 가게 정보도 추가할 수 있습니다.
+      //   {
+      //     name: "어썸브루커피",
+      //     address: "대구 북구 대학로23길 9",
+      //     latlng: new kakao.maps.LatLng(35.8945465587138, 128.610787481871),
+      //     umbrellaCnt: 6,
+      //   },
+      // ];
 
       const infoWindows = stores.map(store => {
         const content = `
